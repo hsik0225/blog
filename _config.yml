@@ -9,7 +9,7 @@ name: "Data: A User Manual"
 description: "University of Colorado Denver, Fall 2021"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-#avatar: /assets/image/avatar.png
+avatar: /f21-data/assets/image/cu-logo.png
 
 #
 # Flags below are optional
@@ -17,7 +17,7 @@ description: "University of Colorado Denver, Fall 2021"
 
 # Your website URL (e.g. https://forever-jekyll.github.io or https://forever-jekyll.com)
 # Used for Sitemap.xml and your RSS feed
-url: https://cblevins.github.io
+url: "https://cblevins.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -29,30 +29,30 @@ baseurl: "/f21-data"
 navigation_links:
 
   - title: Schedule
-    url: /schedule
+    url: /f21-data/schedule
 
   - title: Assignments
-    url: /assignments
+    url: /f21-data/assignments
 
   - title: Policies
-    url: /policies
+    url: /f21-data/policies
 
 # Footer icons
-footer_links:
-  - title: Feed
-    url: feed.xml
-    icon: fa fa-rss-square
-
-  - title: Twitter
-    url: https://twitter.com/jekyllrb
-    icon: fa fa-twitter-square
-
-  - title: GitHub
-    url: https://github.com/forever-jekyll
-    icon: fa fa-github-square
+#footer_links:
+#  - title: Feed
+#    url: feed.xml
+#    icon: fa fa-rss-square
+#
+#  - title: Twitter
+#    url: https://twitter.com/jekyllrb
+#    icon: fa fa-twitter-square
+#
+#  - title: GitHub
+#    url: https://github.com/forever-jekyll
+#    icon: fa fa-github-square
 
 # Enter your copyright text if you wish to override the default one.
-#copyright: "This site is made with <3 by *me, myself, and I*."
+copyright: "[Cameron Blevins](https://cameronblevins.org), University of Colorado Denver (Fall 2021)<br>Jekyll theme [Forever Jekyll](https://github.com/forever-jekyll)"
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -71,8 +71,8 @@ kramdown:
     css_class: 'highlight'
 
 # Pagination
-paginate: 5
-paginate_path: "/page/:num/"
+#paginate: 5
+#paginate_path: "/page/:num/"
 
 # Set the Sass partials directory, as we're using @imports
 sass:
