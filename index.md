@@ -11,7 +11,7 @@ permalink: /
 Professor Cameron Blevins (he/him/his) | cameron.blevins@ucdenver.edu<br>
 University of Colorado Denver, Fall 2021<br>
 M/W 12:30-1:45pm, Plaza 131<br>
-Office Hours: Tues. 10:00-11:00am & by appointment
+Office Hours: Tues. 10:00-11:00am & by appointment, Student Commons 3108
 </p>
 </div>
 
