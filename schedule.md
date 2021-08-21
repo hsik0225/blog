@@ -181,6 +181,9 @@ _In Class_
 #### Wed., Nov. 17: Computer Vision
 - Lauren Tilton and Taylor Arnold, "Distant Viewing: Analyzing Large Visual Corpora" *Digital Scholarship in the Humanities* (2019) [Perusall]
 
+*In Class*
+- Class visit from [Lauren Tilton](https://laurentilton.com/)
+
 *Research Project Data Biography due Friday, 11/19*
 
 #### ~~Mon., Nov. 22: No Class (Fall Break)~~
