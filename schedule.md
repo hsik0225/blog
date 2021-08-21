@@ -8,9 +8,10 @@ title: Schedule
 #### Mon., Aug. 23: Introduction to the Course
 
 #### Wed., Aug. 25: Introduction to the Course II
-- Complete the student survey if you have not done so already (check Canvas announcements for link)
 - Annotate Course Syllabus [Perusall]
 - Annotate Hannah Fry, ["When Graphs Are a Matter of Life and Death"](https://www.newyorker.com/magazine/2021/06/21/when-graphs-are-a-matter-of-life-and-death) *The New Yorker* (June 21, 2021) [Perusall]
+- Complete the student survey if you have not done so already (check Canvas announcements for link)
+- Sign up for a 10-minute one-on-one meeting with Professor Blevins through [Canvas Calendars](https://community.canvaslms.com/t5/Student-Guide/How-do-I-sign-up-for-a-Scheduler-appointment-in-the-Calendar/ta-p/536)
 - Join the class Slack workspace (see Canvas announcement for instructions), customize your profile picture, and write a post introducing yourself in the #general channel - feel free to include a GIF, picture of your pet, etc.
  
 _In Class_ 
