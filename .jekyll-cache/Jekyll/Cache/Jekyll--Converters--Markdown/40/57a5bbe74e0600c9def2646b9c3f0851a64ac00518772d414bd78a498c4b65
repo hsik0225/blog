@@ -1,93 +1,11 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-
-
-<meta name="description" content="University of Colorado Denver, Fall 2021">
-<meta property="og:description" content="University of Colorado Denver, Fall 2021" />
-
-<meta name="author" content="Data: A User Manual" />
-
-
-<meta property="og:title" content="Schedule" />
-<meta property="twitter:title" content="Schedule" />
-
-
-
-    <title>Schedule – Data: A User Manual – University of Colorado Denver, Fall 2021</title>
-
-    <link rel="stylesheet" type="text/css" href="/f21-data/style.css"/>
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/ress/dist/ress.min.css"/>
-    <link rel="apple-touch-icon" sizes="57x57" href="/assets/image/favicon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/assets/image/favicon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/image/favicon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/image/favicon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/image/favicon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/image/favicon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/image/favicon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/image/favicon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/image/favicon-180x180.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/image/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/image/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/image/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/assets/image/favicon-192x192.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/image/favicon.ico">
-    <link rel="icon" type="image/x-icon" href="/f21-data/assets/image/favicon.ico">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/assets/image/favicon-144x144.png">
-    <meta name="msapplication-config" content="/assets/image/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="alternate" type="application/rss+xml" title="Data: A User Manual - University of Colorado Denver, Fall 2021" href="/f21-data/feed.xml"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.4/plyr.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
-
-  </head>
-
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="/f21-data/" class="site-avatar"><img src="/f21-data/assets/image/cu-logo.png"/></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="/f21-data/">Data: A User Manual</a></h1>
-            <p class="site-description">University of Colorado Denver, Fall 2021</p>
-          </div>
-
-          <nav class="nav-menu">
-            
-  <a class="nav-menu-item"<a href="/f21-data/schedule">Schedule</a>
-
-  <a class="nav-menu-item"<a href="/f21-data/assignments">Assignments</a>
-
-  <a class="nav-menu-item"<a href="/f21-data/policies">Policies</a>
-
-
-          </nav>
-        </header>
-      </div>
-    </div>
-
-    <div id="main" role="main" class="container">
-      <article class="page">
-
-  <h1>Schedule</h1>
-
-  <div class="entry">
-    <h2 id="i-the-basics">I. The Basics</h2>
+I"�;<h2 id="i-the-basics">I. The Basics</h2>
 
 <h4 id="mon-aug-23-introduction-to-the-course">Mon., Aug. 23: Introduction to the Course</h4>
 
 <h4 id="wed-aug-25-introduction-to-the-course-ii">Wed., Aug. 25: Introduction to the Course II</h4>
 <ul>
-  <li>Annotate Course Syllabus [<a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/7ce4E5KpA7um226Lw">Perusall</a>]</li>
-  <li>Annotate Hannah Fry, <a href="https://www.newyorker.com/magazine/2021/06/21/when-graphs-are-a-matter-of-life-and-death">“When Graphs Are a Matter of Life and Death”</a> <em>The New Yorker</em> (June 21, 2021) [<a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/qsqpBr9FdKqiSMR8T">Perusall</a>]</li>
+  <li>Annotate Course Syllabus <a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/7ce4E5KpA7um226Lw">Perusall</a></li>
+  <li>Annotate Hannah Fry, <a href="https://www.newyorker.com/magazine/2021/06/21/when-graphs-are-a-matter-of-life-and-death">“When Graphs Are a Matter of Life and Death”</a> <em>The New Yorker</em> (June 21, 2021) <a href="">Perusall</a></li>
   <li>Complete the student survey if you have not done so already (check Canvas announcements for link)</li>
   <li>Sign up for a 10-minute one-on-one meeting with Professor Blevins through <a href="https://community.canvaslms.com/t5/Student-Guide/How-do-I-sign-up-for-a-Scheduler-appointment-in-the-Calendar/ta-p/536">Canvas Calendars</a></li>
   <li>Join the class Slack workspace (see Canvas announcement for instructions), customize your profile picture, and write a post introducing yourself in the #general channel - feel free to include a GIF, picture of your pet, etc.</li>
@@ -98,11 +16,11 @@
   <li><a href="https://info1350.github.io/Intro-CA-SP21/01-Command-Line/01-The-Command-Line.html">The Command Line</a> in Melanie Walsh, <em>Introduction to Cultural Analytics &amp; Python</em> textbook.</li>
 </ul>
 
-<p><em>Complete <a href="https://forms.gle/fNcn59YU2VYgtEjx6">student survey</a> by Sunday, August 29th by 11:59PM</em></p>
+<p><em>Complete student survey by Sunday, August 29th by 11:59PM</em></p>
 
 <h4 id="mon-aug-30-getting-up-and-running">Mon., Aug. 30: Getting Up and Running</h4>
 <ul>
-  <li><a href="https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis">“Choosing Python or R for Data Analysis? An Infographic”</a> <em>DataCamp Team</em> (January 9, 2020) [<a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/python-vs-r-infographic">Perusall</a>]</li>
+  <li><a href="https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis">“Choosing Python or R for Data Analysis? An Infographic”</a> <em>DataCamp Team</em> (January 9, 2020) <a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/python-vs-r-infographic">Perusall</a></li>
   <li>Install Anaconda on your computer (instructions for <a href="https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x">Mac</a>, <a href="https://www.datacamp.com/community/tutorials/installing-anaconda-windows">Windows</a>, or <a href="https://docs.anaconda.com/anaconda/install/linux/">Linux</a>)</li>
   <li>Complete <a href="https://info1350.github.io/Intro-CA-SP21/02-Python/02-How-to-Use-Jupyter-Notebooks.html">How to Use Jupyter Notebooks</a> tutorial in Melanie Walsh, <em>Introduction to Cultural Analytics &amp; Python</em> textbook.</li>
 </ul>
@@ -116,8 +34,8 @@
 
 <h4 id="wed-sep-1-data-and-power">Wed., Sep. 1: Data and Power</h4>
 <ul>
-  <li>“Chapter 1: The Power Chapter” in Catherine D’Ignzaio and Lauren Klein, <em>Data Feminism</em> [<a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/qwqJy8cASTjWRxyez">Perusall</a>]</li>
-  <li>Aditya Mukerjee, <a href="https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name">“I Can Text You A Pile of Poo, But I Can’t Write My Name”</a> [<a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/WjbjMQnEuKLToSQM4">Perusall</a>]</li>
+  <li>“Chapter 1: The Power Chapter” in Catherine D’Ignzaio and Lauren Klein, <em>Data Feminism</em> [Perusall]</li>
+  <li>Aditya Mukerjee, <a href="https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name">“I Can Text You A Pile of Poo, But I Can’t Write My Name”</a> [Perusall]</li>
 </ul>
 
 <h4 id="mon-sep-6-no-class-labor-day"><del>Mon., Sep. 6: No Class (Labor Day)</del></h4>
@@ -372,50 +290,4 @@
 <p><em>Final Research Project Due Tuesday, December 14  by 11:59PM</em></p>
 
 <p><em>Final Self Assessment Due Tuesday, December 14  by 11:59PM</em></p>
-
-  </div>
-</article>
-
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer"><div class="copyright">
-            
-            <p><a href="https://cameronblevins.org">Cameron Blevins</a>, University of Colorado Denver (Fall 2021)<br />Jekyll theme <a href="https://github.com/forever-jekyll">Forever Jekyll</a></p>
-
-            
-          </div>
-        </footer>
-      </div>
-    </div>
-
-    <script src="https://cdn.plyr.io/3.6.4/plyr.polyfilled.js"></script>
-    <script>
-      const player = new Plyr('#player');
-    </script>
-    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
-    <script type="text/javascript">
-      const lightbox = GLightbox({
-          touchNavigation: true,
-          loop: true,
-          autoplayVideos: true
-      });
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-    <script>mermaid.initialize({startOnLoad:true});</script>
-
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/auto-render.min.js"
-            onload="renderMathInElement(document.body,{
-                    delimiters: [
-                    { left: '$$',  right: '$$',  display: true  },
-                    { left: '$',   right: '$',   display: false },
-                    { left: '\\[', right: '\\]', display: true  },
-                    { left: '\\(', right: '\\)', display: false }
-                    ]});">
-    </script>
-
-  </body>
-</html>
+:ET

@@ -8,8 +8,8 @@ title: Schedule
 #### Mon., Aug. 23: Introduction to the Course
 
 #### Wed., Aug. 25: Introduction to the Course II
-- Annotate Course Syllabus [Perusall]
-- Annotate Hannah Fry, ["When Graphs Are a Matter of Life and Death"](https://www.newyorker.com/magazine/2021/06/21/when-graphs-are-a-matter-of-life-and-death) *The New Yorker* (June 21, 2021) [Perusall]
+- Annotate Course Syllabus [[Perusall](https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/7ce4E5KpA7um226Lw)]
+- Annotate Hannah Fry, ["When Graphs Are a Matter of Life and Death"](https://www.newyorker.com/magazine/2021/06/21/when-graphs-are-a-matter-of-life-and-death) *The New Yorker* (June 21, 2021) [[Perusall](https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/qsqpBr9FdKqiSMR8T)]
 - Complete the student survey if you have not done so already (check Canvas announcements for link)
 - Sign up for a 10-minute one-on-one meeting with Professor Blevins through [Canvas Calendars](https://community.canvaslms.com/t5/Student-Guide/How-do-I-sign-up-for-a-Scheduler-appointment-in-the-Calendar/ta-p/536)
 - Join the class Slack workspace (see Canvas announcement for instructions), customize your profile picture, and write a post introducing yourself in the #general channel - feel free to include a GIF, picture of your pet, etc.
@@ -17,11 +17,13 @@ title: Schedule
 _In Class_ 
 - [The Command Line](https://info1350.github.io/Intro-CA-SP21/01-Command-Line/01-The-Command-Line.html) in Melanie Walsh, *Introduction to Cultural Analytics & Python* textbook.
 
-*Complete student survey by Sunday, August 29th by 11:59PM*
+*Complete [student survey](https://forms.gle/fNcn59YU2VYgtEjx6) by Sunday, August 29th by 11:59PM*
 
 #### Mon., Aug. 30: Getting Up and Running
+- ["Choosing Python or R for Data Analysis? An Infographic"](https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis) *DataCamp Team* (January 9, 2020) [[Perusall](https://app.perusall.com/courses/data-a-user-manual-fall-2021/python-vs-r-infographic)]
 - Install Anaconda on your computer (instructions for [Mac](https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x), [Windows](https://www.datacamp.com/community/tutorials/installing-anaconda-windows), or [Linux](https://docs.anaconda.com/anaconda/install/linux/))
-- [How to Use Jupyter Notebooks](https://info1350.github.io/Intro-CA-SP21/02-Python/02-How-to-Use-Jupyter-Notebooks.html) (Walsh) 
+- Complete [How to Use Jupyter Notebooks](https://info1350.github.io/Intro-CA-SP21/02-Python/02-How-to-Use-Jupyter-Notebooks.html) tutorial in Melanie Walsh, *Introduction to Cultural Analytics & Python* textbook.
+ 
 
 In-class:
 - Command line review
@@ -29,8 +31,8 @@ In-class:
 - Jupyter Notebooks 
 
 #### Wed., Sep. 1: Data and Power
-- "Chapter 1: The Power Chapter" in Catherine D'Ignzaio and Lauren Klein, *Data Feminism* [Perusall]
-- Aditya Mukerjee, ["I Can Text You A Pile of Poo, But I Can’t Write My Name"](https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name) [Perusall]
+- "Chapter 1: The Power Chapter" in Catherine D'Ignzaio and Lauren Klein, *Data Feminism* [[Perusall](https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/qwqJy8cASTjWRxyez)]
+- Aditya Mukerjee, ["I Can Text You A Pile of Poo, But I Can’t Write My Name"](https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name) [[Perusall](https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/WjbjMQnEuKLToSQM4)]
 
 #### ~~Mon., Sep. 6: No Class (Labor Day)~~
 
