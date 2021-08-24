@@ -15,7 +15,7 @@ title: Schedule
 - Join the class Slack workspace (see Canvas announcement for instructions), customize your profile picture, and write a post introducing yourself in the #general channel - feel free to include a GIF, picture of your pet, etc.
  
 _In Class_ 
-- [The Command Line](https://info1350.github.io/Intro-CA-SP21/01-Command-Line/01-The-Command-Line.html) in Melanie Walsh, *Introduction to Cultural Analytics & Python* textbook.
+- [Learning how to use the Command Line]({{site.baseurl}}/in-class/command-line)
 
 *Complete [student survey](https://forms.gle/fNcn59YU2VYgtEjx6) by Sunday, August 29th by 11:59PM*
 
