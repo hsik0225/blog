@@ -168,7 +168,7 @@ _In Class_
 *Project Proposal due by Tuesday, 11/11 by 11:59PM*
 
 #### Wed., Nov. 10: Corporate Data III | Project Proposals
-- James DeGroot, ["Ancestry.com and the Evolving Nature of Historical Information Companies"](https://doi.org/10.1525/tph.2020.42.1.8) *The Public Historian* (2020) [Perusall]
+- Jerome de Groot, ["Ancestry.com and the Evolving Nature of Historical Information Companies"](https://doi.org/10.1525/tph.2020.42.1.8) *The Public Historian* (2020) [Perusall]
 - Prepare a short presentation on your project proposal 
 
 _In Class_
