@@ -55,8 +55,8 @@ In-class:
 - [Comparisons and Conditionals](https://info1350.github.io/Intro-CA-SP21/02-Python/08-Comparisons-Conditionals.html)
  
 #### Wed., Sep. 15: Slavery and Capitalism
-- Excerpt from Eugene Genovese and Elizabeth Fox Genovese, *The Fruits of Merchant Capital: Slavery and Bourgeois Property in the Rise and Expansion of Capitalism* (1983) [Perusall]
-- Caitlin Rosenthal, "Slavery’s Scientific Management: Masters and Managers" in Sven Beckert and Seth Rockman, eds. *Slavery's Capitalism* (2015). [Perusall]
+- Excerpt from Eugene Genovese and Elizabeth Fox Genovese, *The Fruits of Merchant Capital: Slavery and Bourgeois Property in the Rise and Expansion of Capitalism* (1983) [[Perusall](https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/P7tj6fxirrjdqeWmr)]
+- Caitlin Rosenthal, "Slavery’s Scientific Management: Masters and Managers" in Sven Beckert and Seth Rockman, eds. *Slavery's Capitalism* (2015). [[Perusall](https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/P7tj6fxirrjdqeWmr)]
 
 *Homework #2 Due Friday, 9/17 by 11:59PM*
 
@@ -71,9 +71,10 @@ _In Class_
 #### Wed., Sep. 22: Numbers, Narratives, and Historical Evidence
 - John E. Murray's Introduction and Alan L. Olmstead's review of Edward Baptist, *The Half Has Never Been Told: Slavery and the Making of American Capitalism* in: *The Journal of Economic History*, Vol. 74, Issue 3, September 2015, pp. 919-923. [Perusall]
 - Selections from Daina Ramey Berry, *The Price for Their Pound of Flesh: The Value of the Enslaved, from Womb to Grave* (2016), pp. 1-9, 33-57. [Perusall]
+- Look at Professor Anelise Shrout's [website](http://www.anelisehshrout.com/)
 
 _In Class_
-- Class visit from [Anelise Shrout](http://www.anelisehshrout.com/)
+- Class visit from Professor [Anelise Shrout](http://www.anelisehshrout.com/)
 
 *Homework #3 Due Friday, 9/24 by 11:59PM*
 
