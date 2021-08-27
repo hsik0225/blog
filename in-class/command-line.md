@@ -30,7 +30,7 @@ Continue through [The Command Line](https://info1350.github.io/Intro-CA-SP21/01-
 - Navigate to `command-line` folder you created.
 - Use the `curl` command to download into your folder the raw text file (ending in .txt) for Harriet Jacobs *Incidents in the Life of a Slave Girl, Written by Herself* from Project Gutenberg: <https://gutenberg.org/ebooks/11030>. 
   - Hint 1: you need to find a URL for the "Plain Text" of this book. Look at Walsh's example of *The Yellow Wallpaper* and see if you can figure out how to do this with a different text.
-  - Hint 2: If it's just displaying the text of  the file but not downloading it, you might need to add the following to your curl command: `--output 11030-0.txt`
+  - Hint 2: the letter after `curl` is an upper-case o (O) not a zero (0)
 - Check to make sure you downloaded the file by showing the contents of your folder
 - Rename  the file you just downloaded `jacobs.txt`. Check to make sure it worked by showing the contents of your folder.
 - How many **words** are in the text you just downloaded?

@@ -28,7 +28,7 @@ _In Class_
 In-class:
 - Command line review
 - Why Python? 
-- Jupyter Notebooks 
+- Getting Started with Jupyter Notebooks [[link to download in-class notebook]({{site.baseurl}}/in-class/jupyter-notebooks-intro.ipynb)]
 
 #### Wed., Sep. 1: Data and Power
 - "Chapter 1: The Power Chapter" in Catherine D'Ignzaio and Lauren Klein, *Data Feminism* [[Perusall](https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/qwqJy8cASTjWRxyez)]
