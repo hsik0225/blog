@@ -23,8 +23,8 @@ _In Class_
 - ["Choosing Python or R for Data Analysis? An Infographic"](https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis) *DataCamp Team* (January 9, 2020) [[Perusall](https://app.perusall.com/courses/data-a-user-manual-fall-2021/python-vs-r-infographic)]
 - Install Anaconda on your computer (instructions for [Mac](https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x), [Windows](https://www.datacamp.com/community/tutorials/installing-anaconda-windows), or [Linux](https://docs.anaconda.com/anaconda/install/linux/))
 - Complete [How to Use Jupyter Notebooks](https://info1350.github.io/Intro-CA-SP21/02-Python/02-How-to-Use-Jupyter-Notebooks.html) tutorial in Melanie Walsh, *Introduction to Cultural Analytics & Python* textbook.
+- Finish Part 2 of [Learning how to use the Command Line]({{site.baseurl}}/in-class/command-line)
  
-
 In-class:
 - Command line review
 - Why Python? 
