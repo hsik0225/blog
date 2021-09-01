@@ -138,7 +138,7 @@ _In Class_
 - [Text Analysis: TF-IDF with Scikit-Learn](https://info1350.github.io/Intro-CA-SP21/05-Text-Analysis/03-TF-IDF-Scikit-Learn.html)
 - Plotting in Pyton (TBD)
 
-#### Corporate Data I
+#### Wed. Oct. 27: Corporate Data I
 - Josh Lauer, "Plastic surveillance: Payment cards and the history of transactional data, 1888 to present" *Big Data & Society* (2020) [Perusall]
 - Margaret O'Mara, *The Code: Silicon Valley and the Remaking of America* (2019) (selections TBD) [Perusall]
 
