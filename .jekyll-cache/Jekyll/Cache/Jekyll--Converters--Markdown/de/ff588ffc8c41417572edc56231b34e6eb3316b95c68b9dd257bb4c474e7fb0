@@ -1,4 +1,4 @@
-I"v><h2 id="i-the-basics">I. The Basics</h2>
+I"�><h2 id="i-the-basics">I. The Basics</h2>
 
 <h4 id="mon-aug-23-introduction-to-the-course">Mon., Aug. 23: Introduction to the Course</h4>
 
@@ -13,7 +13,7 @@
 
 <p><em>In Class</em></p>
 <ul>
-  <li><a href="https://info1350.github.io/Intro-CA-SP21/01-Command-Line/01-The-Command-Line.html">The Command Line</a> in Melanie Walsh, <em>Introduction to Cultural Analytics &amp; Python</em> textbook.</li>
+  <li><a href="/f21-data/in-class/command-line">Learning how to use the Command Line</a></li>
 </ul>
 
 <p><em>Complete <a href="https://forms.gle/fNcn59YU2VYgtEjx6">student survey</a> by Sunday, August 29th by 11:59PM</em></p>
@@ -23,13 +23,14 @@
   <li><a href="https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis">“Choosing Python or R for Data Analysis? An Infographic”</a> <em>DataCamp Team</em> (January 9, 2020) [<a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/python-vs-r-infographic">Perusall</a>]</li>
   <li>Install Anaconda on your computer (instructions for <a href="https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x">Mac</a>, <a href="https://www.datacamp.com/community/tutorials/installing-anaconda-windows">Windows</a>, or <a href="https://docs.anaconda.com/anaconda/install/linux/">Linux</a>)</li>
   <li>Complete <a href="https://info1350.github.io/Intro-CA-SP21/02-Python/02-How-to-Use-Jupyter-Notebooks.html">How to Use Jupyter Notebooks</a> tutorial in Melanie Walsh, <em>Introduction to Cultural Analytics &amp; Python</em> textbook.</li>
+  <li>Finish Part 2 of <a href="/f21-data/in-class/command-line">Learning how to use the Command Line</a></li>
 </ul>
 
 <p>In-class:</p>
 <ul>
   <li>Command line review</li>
   <li>Why Python?</li>
-  <li>Jupyter Notebooks</li>
+  <li>Getting Started with Jupyter Notebooks [<a href="/f21-data/in-class/jupyter-notebooks-intro.ipynb">link to download in-class notebook</a>]</li>
 </ul>
 
 <h4 id="wed-sep-1-data-and-power">Wed., Sep. 1: Data and Power</h4>

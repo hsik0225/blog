@@ -25,7 +25,7 @@ We will be using an online annotation tool called Perusall to collaboratively an
 
 You will be completing a series of coding homework assignments in order to help you learn how to work with data, primarily using the Python programming language. Each exercise will have you apply the skills you learned in the preceding classes. See [the assignment page]({{site.baseurl}}/assignments/coding-homework) for more detailed instructions.
 
-- Homework #1 (9/10)
+- [Homework #1 (9/10)]({{site.baseurl}}/homework/hw-01.ipynb)
 - Homework #2 (9/17)
 - Homework #3 (9/24)
 - Homework #4 (10/1)
