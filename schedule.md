@@ -22,7 +22,7 @@ _In Class_
 #### Mon., Aug. 30: Getting Up and Running
 - ["Choosing Python or R for Data Analysis? An Infographic"](https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis) *DataCamp Team* (January 9, 2020) [[Perusall](https://app.perusall.com/courses/data-a-user-manual-fall-2021/python-vs-r-infographic)]
 - Install Anaconda on your computer (instructions for [Mac](https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x), [Windows](https://www.datacamp.com/community/tutorials/installing-anaconda-windows), or [Linux](https://docs.anaconda.com/anaconda/install/linux/))
-- Complete [How to Use Jupyter Notebooks](https://info1350.github.io/Intro-CA-SP21/02-Python/02-How-to-Use-Jupyter-Notebooks.html) tutorial in Melanie Walsh, *Introduction to Cultural Analytics & Python* textbook.
+- Complete [How to Use Jupyter Notebooks](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/02-How-to-Use-Jupyter-Notebooks.html) tutorial in Melanie Walsh, *Introduction to Cultural Analytics & Python* textbook.
 - Finish Part 2 of [Learning how to use the Command Line]({{site.baseurl}}/in-class/command-line)
  
 In-class:
@@ -30,29 +30,29 @@ In-class:
 - Why Python? 
 - Getting Started with Jupyter Notebooks [[link to download in-class notebook]({{site.baseurl}}/in-class/jupyter-notebooks-intro.ipynb)]
 
-#### Wed., Sep. 1: Data and Power
+#### ~~Wed., Sep. 1: Data and Power~~ (class cancelled)
 - "Chapter 1: The Power Chapter" in Catherine D'Ignzaio and Lauren Klein, *Data Feminism* [[Perusall](https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/qwqJy8cASTjWRxyez)]
 - Aditya Mukerjee, ["I Can Text You A Pile of Poo, But I Can’t Write My Name"](https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name) [[Perusall](https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/WjbjMQnEuKLToSQM4)]
 
 #### ~~Mon., Sep. 6: No Class (Labor Day)~~
 
 #### Wed., Sep. 8: Navigating Python
-- [Anatomy of a Python Script](https://info1350.github.io/Intro-CA-SP21/02-Python/03-Anatomy-Python-Script.html) (Walsh)
-- [Variables](https://info1350.github.io/Intro-CA-SP21/02-Python/04-Variables.html) (Walsh)
-- [Data Types](https://info1350.github.io/Intro-CA-SP21/02-Python/05-Data-Types.html) (Walsh)
+- [Anatomy of a Python Script](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/03-Anatomy-Python-Script.html) (Walsh)
+- [Variables](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/04-Variables.html) (Walsh)
+- [Data Types](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/05-Data-Types.html) (Walsh)
 
 In-class:
 - Importing files
 - Data and variable types
 
-*Homework #1 Due Friday, 9/10 by 11:59PM*
+*[Homework #1]({{site.baseurl}}/homework/hw-01.ipynb) Due Friday, 9/10 by 11:59PM*
 
 ## Slavery and Data
 
 #### Mon., Sep. 13: Working with Text in Python
-- [String Methods](https://info1350.github.io/Intro-CA-SP21/02-Python/06-String-Methods.html)
-- [Files and Character Encoding](https://info1350.github.io/Intro-CA-SP21/02-Python/07-Files-Character-Encoding.html)
-- [Comparisons and Conditionals](https://info1350.github.io/Intro-CA-SP21/02-Python/08-Comparisons-Conditionals.html)
+- [String Methods](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/06-String-Methods.html) (Walsh)
+- [Files and Character Encoding](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/07-Files-Character-Encoding.html) (Walsh)
+- [Comparisons and Conditionals](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/08-Comparisons-Conditionals.html) (Walsh)
  
 #### Wed., Sep. 15: Slavery and Capitalism
 - Excerpt from Eugene Genovese and Elizabeth Fox Genovese, *The Fruits of Merchant Capital: Slavery and Bourgeois Property in the Rise and Expansion of Capitalism* (1983) [[Perusall](https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/P7tj6fxirrjdqeWmr)]
@@ -62,8 +62,8 @@ In-class:
 
 #### Mon., Sep. 20: Lists and Loops
 - Anelise Hanson Shrout, [“(Re)Humanizing Data: Digitally Navigating the Bellevue Almshouse”](https://crdh.rrchnm.org/essays/v01-10-(re)-humanizing-data/) *Current Research in Digital History 2018* [Perusall]
-- [Lists and Loops Part 1](https://info1350.github.io/Intro-CA-SP21/02-Python/09-Lists-Loops-Part1.html)
-- [Lists and Loops Part 2](https://info1350.github.io/Intro-CA-SP21/02-Python/10-Lists-Loops-Part2.html)
+- [Lists and Loops Part 1](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/09-Lists-Loops-Part1.html) (Walsh)
+- [Lists and Loops Part 2](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/10-Lists-Loops-Part2.html) (Walsh)
 
 _In Class_
 - Caleb McDaniel, ["Data Mining the Internet Archive Collection"](https://programminghistorian.org/en/lessons/data-mining-the-internet-archive) *The Programming Historian*
@@ -79,9 +79,9 @@ _In Class_
 *Homework #3 Due Friday, 9/24 by 11:59PM*
 
 #### Mon., Sep. 27: Dictionaries and Functions
-- [Dictionaries](https://info1350.github.io/Intro-CA-SP21/02-Python/11-Dictionaries.html)
-- [Functions](https://info1350.github.io/Intro-CA-SP21/02-Python/12-Functions.html)
-- [Common Python Errors](https://info1350.github.io/Intro-CA-SP21/02-Python/13-Common-Python-Errors.html)
+- [Dictionaries](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/11-Dictionaries.html) (Walsh)
+- [Functions](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/12-Functions.html) (Walsh)
+- [Common Python Errors](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/13-Common-Python-Errors.html) (Walsh)
 
 #### Wed., Sep. 29: Bodies, Archives, and Data
 - Jessica Marie Johnson, ["Markup Bodies: Black [Life] Studies and Slavery [Death] Studies at the Digital Crossroads"](https://doi.org/10.1215/01642472-7145658) *Social Text*, Vol. 36, No. 4 (2018). [Perusall]
@@ -109,7 +109,7 @@ _In Class_
 
 #### Mon., Oct. 11: Data Analysis / Pandas I
 - “Chapter 6: The Numbers Don’t Speak for Themselves” in *Data Feminism* [Perusall]
-- [Pandas Basics Part 1](https://info1350.github.io/Intro-CA-SP21/03-Data-Analysis/01-Pandas-Basics-Part1.html)
+- [Pandas Basics Part 1](https://melaniewalsh.github.io/Intro-Cultural-Analytics/03-Data-Analysis/01-Pandas-Basics-Part1.html) (Walsh)
 
 #### Wed., Oct. 13: Government Data II: Census Stories 
 - Historian Dan Bouk will be joining us in class for a Q&A.  Annotate the following collection of posts that are part of his *Census Stories* project [Perusall]:
@@ -124,8 +124,8 @@ _In Class_
 *Homework #5 Due Friday, 10/15 by 11:59PM*
 
 #### Mon., Oct. 18: Data Analysis / Pandas II
-- [Pandas Part 2](https://info1350.github.io/Intro-CA-SP21/03-Data-Analysis/02-Pandas-Basics-Part2.html)
-- [Pandas Part 3](https://info1350.github.io/Intro-CA-SP21/03-Data-Analysis/03-Pandas-Basics-Part3.html)
+- [Pandas Part 2](https://melaniewalsh.github.io/Intro-Cultural-Analytics/03-Data-Analysis/02-Pandas-Basics-Part2.html) (Walsh)
+- [Pandas Part 3](https://melaniewalsh.github.io/Intro-Cultural-Analytics/03-Data-Analysis/03-Pandas-Basics-Part3.html) (Walsh)
 
 #### Wed., Oct. 20: Government Data III: Privacy & Surveillance
 - Sarah Elizabeth *Igo, The Known Citizen: A History of Privacy in Modern America*, p. 57-71, 83-98, 221-223, 232-247. [Perusall]
@@ -135,7 +135,7 @@ _In Class_
 ## Corporate Data
 
 #### Mon., Oct. 25: Text Analysis and Data Visualization I
-- [Text Analysis: TF-IDF with Scikit-Learn](https://info1350.github.io/Intro-CA-SP21/05-Text-Analysis/03-TF-IDF-Scikit-Learn.html)
+- [Text Analysis: TF-IDF with Scikit-Learn](https://melaniewalsh.github.io/Intro-Cultural-Analytics/05-Text-Analysis/03-TF-IDF-Scikit-Learn.html) (Walsh)
 - Plotting in Pyton (TBD)
 
 #### Wed. Oct. 27: Corporate Data I
@@ -160,7 +160,7 @@ _In Class_
 *Second Self Assessment Due Sunday 11/7*
 
 #### Mon., Nov. 8: Data Visualization III and Spatial Data
-- [Mapping](https://info1350.github.io/Intro-CA-SP21/07-Mapping/02-Mapping.html)
+- [Mapping](https://melaniewalsh.github.io/Intro-Cultural-Analytics/07-Mapping/00-Mapping.html) (Walsh)
 
 *In class*:
 - Class visit from [Diane Fritz](https://library.auraria.edu/about/staff-directory/diane-fritz), Geospatial Data Scientist at Auraria Library

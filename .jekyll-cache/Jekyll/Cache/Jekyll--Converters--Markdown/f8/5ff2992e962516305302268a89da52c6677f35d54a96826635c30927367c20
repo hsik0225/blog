@@ -1,0 +1,49 @@
+I"X<p>Today we’re going to be practicing how to work with the command line!</p>
+
+<h3 id="part-1">Part 1</h3>
+
+<p>Go through <a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html">The Command Line</a> from Melanie Walsh, <em>Introduction to Cultural Analytics &amp; Python</em> textbook. Stop when you get to the section “Working with Files and Texts.” Now try to put into practice what you’ve learned! Launch the command line on your computer and then use it to complete the following:</p>
+
+<ul>
+  <li>Print the current directory and make sure you are in your home folder. There should be something like /User/yourlogin/ or</li>
+  <li>If for some reason you are not in your home folder, then run <code class="language-plaintext highlighter-rouge">cd ~</code></li>
+  <li>Show all the folders/files in your home folder.</li>
+  <li>Make a new directory in your home folder called <code class="language-plaintext highlighter-rouge">data</code></li>
+  <li>Wait, that’s way too general a name. Use the command line to delete the <code class="language-plaintext highlighter-rouge">data</code> folder</li>
+  <li>Make a new directory in your home folder called <code class="language-plaintext highlighter-rouge">data-a-user-manual</code>. This is going to be the starting point for your work in this class moving forward.</li>
+  <li>Show all the folders/files in your home folder. <em>Is there now a folder called <code class="language-plaintext highlighter-rouge">data-a-user-manual</code>?</em></li>
+  <li>Navigate so that you’re inside <code class="language-plaintext highlighter-rouge">data-a-user-manual</code> folder.</li>
+  <li>Create a new folder inside <code class="language-plaintext highlighter-rouge">data-a-user-manual</code> called <code class="language-plaintext highlighter-rouge">command-line</code>.</li>
+  <li>Navigate inside <code class="language-plaintext highlighter-rouge">command-line</code></li>
+  <li>Now navigate back UP one folder to <code class="language-plaintext highlighter-rouge">data-a-user-manual</code></li>
+</ul>
+
+<p>Let Professor Blevins know if you’re running into any issues!</p>
+
+<h3 id="part-2">Part 2</h3>
+
+<p>Continue through <a href="https://info1350.github.io/Intro-CA-SP21/01-Command-Line/01-The-Command-Line.html">The Command Line</a>, starting with  “Working with Files and Texts” and going through to the end. Now try to put into practice what you’ve learned! Go back to the command line on your computer and then use it to complete the following:</p>
+
+<ul>
+  <li>Navigate to <code class="language-plaintext highlighter-rouge">command-line</code> folder you created.</li>
+  <li>Use the <code class="language-plaintext highlighter-rouge">curl</code> command to download into your folder the raw text file (ending in .txt) for Harriet Jacobs <em>Incidents in the Life of a Slave Girl, Written by Herself</em> from Project Gutenberg: <a href="https://gutenberg.org/ebooks/11030">https://gutenberg.org/ebooks/11030</a>.
+    <ul>
+      <li>Hint 1: you need to find a URL for the “Plain Text” of this book. Look at Walsh’s example of <em>The Yellow Wallpaper</em> and see if you can figure out how to do this with a different text.</li>
+      <li>Hint 2: the letter after <code class="language-plaintext highlighter-rouge">curl</code> is an upper-case o (O) not a zero (0)</li>
+    </ul>
+  </li>
+  <li>Check to make sure you downloaded the file by showing the contents of your folder</li>
+  <li>Rename  the file you just downloaded <code class="language-plaintext highlighter-rouge">jacobs.txt</code>. Check to make sure it worked by showing the contents of your folder.</li>
+  <li>How many <strong>words</strong> are in the text you just downloaded?</li>
+  <li>How many <strong>lines</strong> are in the text you just downloaded?</li>
+  <li>Use <code class="language-plaintext highlighter-rouge">grep</code> command to display:
+    <ul>
+      <li>Every line in your file where Jacobs writes “God”</li>
+      <li>The line number</li>
+      <li>The word “God” colored in red</li>
+    </ul>
+  </li>
+  <li>How many times does Jacobs use the word “God”?</li>
+</ul>
+
+:ET

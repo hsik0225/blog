@@ -7,7 +7,7 @@ Today we're going to be practicing how to work with the command line!
 
 ### Part 1
 
-Go through [The Command Line](https://info1350.github.io/Intro-CA-SP21/01-Command-Line/01-The-Command-Line.html) from Melanie Walsh, *Introduction to Cultural Analytics & Python* textbook. Stop when you get to the section "Working with Files and Texts." Now try to put into practice what you've learned! Launch the command line on your computer and then use it to complete the following:
+Go through [The Command Line](https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html) from Melanie Walsh, *Introduction to Cultural Analytics & Python* textbook. Stop when you get to the section "Working with Files and Texts." Now try to put into practice what you've learned! Launch the command line on your computer and then use it to complete the following:
 
 - Print the current directory and make sure you are in your home folder. There should be something like /User/yourlogin/ or 
 - If for some reason you are not in your home folder, then run `cd ~`
@@ -25,7 +25,7 @@ Let Professor Blevins know if you're running into any issues!
 
 ### Part 2
 
-Continue through [The Command Line](https://info1350.github.io/Intro-CA-SP21/01-Command-Line/01-The-Command-Line.html), starting with  "Working with Files and Texts" and going through to the end. Now try to put into practice what you've learned! Go back to the command line on your computer and then use it to complete the following:
+Continue through [The Command Line](https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html), starting with  "Working with Files and Texts" and going through to the end. Now try to put into practice what you've learned! Go back to the command line on your computer and then use it to complete the following:
 
 - Navigate to `command-line` folder you created.
 - Use the `curl` command to download into your folder the raw text file (ending in .txt) for Harriet Jacobs *Incidents in the Life of a Slave Girl, Written by Herself* from Project Gutenberg: <https://gutenberg.org/ebooks/11030>. 

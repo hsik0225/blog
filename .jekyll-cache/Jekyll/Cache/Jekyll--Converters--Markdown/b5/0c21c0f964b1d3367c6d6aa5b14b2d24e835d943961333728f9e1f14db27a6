@@ -1,4 +1,4 @@
-I"�><h2 id="i-the-basics">I. The Basics</h2>
+I"0@<h2 id="i-the-basics">I. The Basics</h2>
 
 <h4 id="mon-aug-23-introduction-to-the-course">Mon., Aug. 23: Introduction to the Course</h4>
 
@@ -22,7 +22,7 @@
 <ul>
   <li><a href="https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis">“Choosing Python or R for Data Analysis? An Infographic”</a> <em>DataCamp Team</em> (January 9, 2020) [<a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/python-vs-r-infographic">Perusall</a>]</li>
   <li>Install Anaconda on your computer (instructions for <a href="https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x">Mac</a>, <a href="https://www.datacamp.com/community/tutorials/installing-anaconda-windows">Windows</a>, or <a href="https://docs.anaconda.com/anaconda/install/linux/">Linux</a>)</li>
-  <li>Complete <a href="https://info1350.github.io/Intro-CA-SP21/02-Python/02-How-to-Use-Jupyter-Notebooks.html">How to Use Jupyter Notebooks</a> tutorial in Melanie Walsh, <em>Introduction to Cultural Analytics &amp; Python</em> textbook.</li>
+  <li>Complete <a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/02-How-to-Use-Jupyter-Notebooks.html">How to Use Jupyter Notebooks</a> tutorial in Melanie Walsh, <em>Introduction to Cultural Analytics &amp; Python</em> textbook.</li>
   <li>Finish Part 2 of <a href="/f21-data/in-class/command-line">Learning how to use the Command Line</a></li>
 </ul>
 
@@ -43,9 +43,9 @@
 
 <h4 id="wed-sep-8-navigating-python">Wed., Sep. 8: Navigating Python</h4>
 <ul>
-  <li><a href="https://info1350.github.io/Intro-CA-SP21/02-Python/03-Anatomy-Python-Script.html">Anatomy of a Python Script</a> (Walsh)</li>
-  <li><a href="https://info1350.github.io/Intro-CA-SP21/02-Python/04-Variables.html">Variables</a> (Walsh)</li>
-  <li><a href="https://info1350.github.io/Intro-CA-SP21/02-Python/05-Data-Types.html">Data Types</a> (Walsh)</li>
+  <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/03-Anatomy-Python-Script.html">Anatomy of a Python Script</a> (Walsh)</li>
+  <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/04-Variables.html">Variables</a> (Walsh)</li>
+  <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/05-Data-Types.html">Data Types</a> (Walsh)</li>
 </ul>
 
 <p>In-class:</p>
@@ -54,15 +54,15 @@
   <li>Data and variable types</li>
 </ul>
 
-<p><em>Homework #1 Due Friday, 9/10 by 11:59PM</em></p>
+<p><em><a href="/f21-data/homework/hw-01.ipynb">Homework #1</a> Due Friday, 9/10 by 11:59PM</em></p>
 
 <h2 id="slavery-and-data">Slavery and Data</h2>
 
 <h4 id="mon-sep-13-working-with-text-in-python">Mon., Sep. 13: Working with Text in Python</h4>
 <ul>
-  <li><a href="https://info1350.github.io/Intro-CA-SP21/02-Python/06-String-Methods.html">String Methods</a></li>
-  <li><a href="https://info1350.github.io/Intro-CA-SP21/02-Python/07-Files-Character-Encoding.html">Files and Character Encoding</a></li>
-  <li><a href="https://info1350.github.io/Intro-CA-SP21/02-Python/08-Comparisons-Conditionals.html">Comparisons and Conditionals</a></li>
+  <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/06-String-Methods.html">String Methods</a></li>
+  <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/07-Files-Character-Encoding.html">Files and Character Encoding</a></li>
+  <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/08-Comparisons-Conditionals.html">Comparisons and Conditionals</a></li>
 </ul>
 
 <h4 id="wed-sep-15-slavery-and-capitalism">Wed., Sep. 15: Slavery and Capitalism</h4>
@@ -76,8 +76,8 @@
 <h4 id="mon-sep-20-lists-and-loops">Mon., Sep. 20: Lists and Loops</h4>
 <ul>
   <li>Anelise Hanson Shrout, <a href="https://crdh.rrchnm.org/essays/v01-10-(re)-humanizing-data/">“(Re)Humanizing Data: Digitally Navigating the Bellevue Almshouse”</a> <em>Current Research in Digital History 2018</em> [Perusall]</li>
-  <li><a href="https://info1350.github.io/Intro-CA-SP21/02-Python/09-Lists-Loops-Part1.html">Lists and Loops Part 1</a></li>
-  <li><a href="https://info1350.github.io/Intro-CA-SP21/02-Python/10-Lists-Loops-Part2.html">Lists and Loops Part 2</a></li>
+  <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/09-Lists-Loops-Part1.html">Lists and Loops Part 1</a></li>
+  <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/10-Lists-Loops-Part2.html">Lists and Loops Part 2</a></li>
 </ul>
 
 <p><em>In Class</em></p>
@@ -101,9 +101,9 @@
 
 <h4 id="mon-sep-27-dictionaries-and-functions">Mon., Sep. 27: Dictionaries and Functions</h4>
 <ul>
-  <li><a href="https://info1350.github.io/Intro-CA-SP21/02-Python/11-Dictionaries.html">Dictionaries</a></li>
-  <li><a href="https://info1350.github.io/Intro-CA-SP21/02-Python/12-Functions.html">Functions</a></li>
-  <li><a href="https://info1350.github.io/Intro-CA-SP21/02-Python/13-Common-Python-Errors.html">Common Python Errors</a></li>
+  <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/11-Dictionaries.html">Dictionaries</a></li>
+  <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/12-Functions.html">Functions</a></li>
+  <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/13-Common-Python-Errors.html">Common Python Errors</a></li>
 </ul>
 
 <h4 id="wed-sep-29-bodies-archives-and-data">Wed., Sep. 29: Bodies, Archives, and Data</h4>
@@ -144,7 +144,7 @@
 <h4 id="mon-oct-11-data-analysis--pandas-i">Mon., Oct. 11: Data Analysis / Pandas I</h4>
 <ul>
   <li>“Chapter 6: The Numbers Don’t Speak for Themselves” in <em>Data Feminism</em> [Perusall]</li>
-  <li><a href="https://info1350.github.io/Intro-CA-SP21/03-Data-Analysis/01-Pandas-Basics-Part1.html">Pandas Basics Part 1</a></li>
+  <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/03-Data-Analysis/01-Pandas-Basics-Part1.html">Pandas Basics Part 1</a></li>
 </ul>
 
 <h4 id="wed-oct-13-government-data-ii-census-stories">Wed., Oct. 13: Government Data II: Census Stories</h4>
@@ -168,8 +168,8 @@
 
 <h4 id="mon-oct-18-data-analysis--pandas-ii">Mon., Oct. 18: Data Analysis / Pandas II</h4>
 <ul>
-  <li><a href="https://info1350.github.io/Intro-CA-SP21/03-Data-Analysis/02-Pandas-Basics-Part2.html">Pandas Part 2</a></li>
-  <li><a href="https://info1350.github.io/Intro-CA-SP21/03-Data-Analysis/03-Pandas-Basics-Part3.html">Pandas Part 3</a></li>
+  <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/03-Data-Analysis/02-Pandas-Basics-Part2.html">Pandas Part 2</a></li>
+  <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/03-Data-Analysis/03-Pandas-Basics-Part3.html">Pandas Part 3</a></li>
 </ul>
 
 <h4 id="wed-oct-20-government-data-iii-privacy--surveillance">Wed., Oct. 20: Government Data III: Privacy &amp; Surveillance</h4>
@@ -183,11 +183,11 @@
 
 <h4 id="mon-oct-25-text-analysis-and-data-visualization-i">Mon., Oct. 25: Text Analysis and Data Visualization I</h4>
 <ul>
-  <li><a href="https://info1350.github.io/Intro-CA-SP21/05-Text-Analysis/03-TF-IDF-Scikit-Learn.html">Text Analysis: TF-IDF with Scikit-Learn</a></li>
+  <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/05-Text-Analysis/03-TF-IDF-Scikit-Learn.html">Text Analysis: TF-IDF with Scikit-Learn</a></li>
   <li>Plotting in Pyton (TBD)</li>
 </ul>
 
-<h4 id="corporate-data-i">Corporate Data I</h4>
+<h4 id="wed-oct-27-corporate-data-i">Wed. Oct. 27: Corporate Data I</h4>
 <ul>
   <li>Josh Lauer, “Plastic surveillance: Payment cards and the history of transactional data, 1888 to present” <em>Big Data &amp; Society</em> (2020) [Perusall]</li>
   <li>Margaret O’Mara, <em>The Code: Silicon Valley and the Remaking of America</em> (2019) (selections TBD) [Perusall]</li>
@@ -218,7 +218,7 @@
 
 <h4 id="mon-nov-8-data-visualization-iii-and-spatial-data">Mon., Nov. 8: Data Visualization III and Spatial Data</h4>
 <ul>
-  <li><a href="https://info1350.github.io/Intro-CA-SP21/07-Mapping/02-Mapping.html">Mapping</a></li>
+  <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/07-Mapping/00-Mapping.html">Mapping</a></li>
 </ul>
 
 <p><em>In class</em>:</p>
