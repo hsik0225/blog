@@ -1,86 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-
-
-<meta name="description" content="University of Colorado Denver, Fall 2021">
-<meta property="og:description" content="University of Colorado Denver, Fall 2021" />
-
-<meta name="author" content="Data: A User Manual" />
-
-
-<meta property="og:title" content="Schedule" />
-<meta property="twitter:title" content="Schedule" />
-
-
-
-    <title>Schedule – Data: A User Manual – University of Colorado Denver, Fall 2021</title>
-
-    <link rel="stylesheet" type="text/css" href="/f21-data/style.css"/>
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/ress/dist/ress.min.css"/>
-    <link rel="apple-touch-icon" sizes="57x57" href="/assets/image/favicon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/assets/image/favicon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/image/favicon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/image/favicon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/image/favicon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/image/favicon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/image/favicon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/image/favicon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/image/favicon-180x180.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/image/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/image/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/image/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/assets/image/favicon-192x192.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/image/favicon.ico">
-    <link rel="icon" type="image/x-icon" href="/f21-data/assets/image/favicon.ico">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/assets/image/favicon-144x144.png">
-    <meta name="msapplication-config" content="/assets/image/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="alternate" type="application/rss+xml" title="Data: A User Manual - University of Colorado Denver, Fall 2021" href="/f21-data/feed.xml"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.4/plyr.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
-
-  </head>
-
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="/f21-data/" class="site-avatar"><img src="/f21-data/assets/image/cu-logo.png"/></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="/f21-data/">Data: A User Manual</a></h1>
-            <p class="site-description">University of Colorado Denver, Fall 2021</p>
-          </div>
-
-          <nav class="nav-menu">
-            
-  <a class="nav-menu-item"<a href="/f21-data/schedule">Schedule</a>
-
-  <a class="nav-menu-item"<a href="/f21-data/assignments">Assignments</a>
-
-  <a class="nav-menu-item"<a href="/f21-data/policies">Policies</a>
-
-
-          </nav>
-        </header>
-      </div>
-    </div>
-
-    <div id="main" role="main" class="container">
-      <article class="page">
-
-  <h1>Schedule</h1>
-
-  <div class="entry">
-    <h2 id="i-the-basics">I. The Basics</h2>
+I"KA<h2 id="i-the-basics">I. The Basics</h2>
 
 <h4 id="mon-aug-23-introduction-to-the-course">Mon., Aug. 23: Introduction to the Course</h4>
 
@@ -152,7 +70,7 @@
   <li>Caitlin Rosenthal, “Slavery’s Scientific Management: Masters and Managers” in Sven Beckert and Seth Rockman, eds. <em>Slavery’s Capitalism</em> (2015). [<a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/P7tj6fxirrjdqeWmr">Perusall</a>]</li>
 </ul>
 
-<p><em><a href="/f21-data/homework/hw-02.ipynb">Homework #2</a> Due Friday, 9/17 by 11:59PM</em></p>
+<p><em>Homework #2 Due Friday, 9/17 by 11:59PM</em></p>
 
 <h4 id="mon-sep-20-lists-and-loops">Mon., Sep. 20: Lists and Loops</h4>
 <ul>
@@ -168,8 +86,8 @@
 
 <h4 id="wed-sep-22-numbers-narratives-and-historical-evidence">Wed., Sep. 22: Numbers, Narratives, and Historical Evidence</h4>
 <ul>
-  <li>John E. Murray’s Introduction and Alan L. Olmstead’s review of Edward Baptist, <em>The Half Has Never Been Told: Slavery and the Making of American Capitalism</em> in: <em>The Journal of Economic History</em>, Vol. 74, Issue 3, September 2015, pp. 919-923. <a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/8oTrsutMgagqrxn8q">Perusall</a></li>
-  <li>Selections from Daina Ramey Berry, <em>The Price for Their Pound of Flesh: The Value of the Enslaved, from Womb to Grave</em> (2016), pp. 1-9, 33-57. <a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/fpShisTf2uYgG7Ev5">Perusall</a></li>
+  <li>John E. Murray’s Introduction and Alan L. Olmstead’s review of Edward Baptist, <em>The Half Has Never Been Told: Slavery and the Making of American Capitalism</em> in: <em>The Journal of Economic History</em>, Vol. 74, Issue 3, September 2015, pp. 919-923. [Perusall]</li>
+  <li>Selections from Daina Ramey Berry, <em>The Price for Their Pound of Flesh: The Value of the Enslaved, from Womb to Grave</em> (2016), pp. 1-9, 33-57. [Perusall]</li>
   <li>Look at Professor Anelise Shrout’s <a href="http://www.anelisehshrout.com/">website</a></li>
 </ul>
 
@@ -189,7 +107,7 @@
 
 <h4 id="wed-sep-29-bodies-archives-and-data">Wed., Sep. 29: Bodies, Archives, and Data</h4>
 <ul>
-  <li>Jessica Marie Johnson, <a href="https://doi.org/10.1215/01642472-7145658">“Markup Bodies: Black [Life] Studies and Slavery [Death] Studies at the Digital Crossroads”</a> <em>Social Text</em>, Vol. 36, No. 4 (2018). <a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/ixkyAYTvx6JH95KKg">Perusall</a></li>
+  <li>Jessica Marie Johnson, <a href="https://doi.org/10.1215/01642472-7145658">“Markup Bodies: Black [Life] Studies and Slavery [Death] Studies at the Digital Crossroads”</a> <em>Social Text</em>, Vol. 36, No. 4 (2018). [Perusall]</li>
 </ul>
 
 <p><em>Homework #4 Due Friday, 10/1 by 11:59PM</em></p>
@@ -200,8 +118,8 @@
 
 <h4 id="mon-oct-4-creating-data">Mon., Oct. 4: Creating Data</h4>
 <ul>
-  <li>“Chapter 4: What Gets Counted Counts” in Catherine D’Ignazio and Lauren Klein, <em>Data Feminism</em> (MIT Press, 2020) <a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/nwivG6ntakC7N6aY7">Perusall</a></li>
-  <li>Spreadsheet readings <a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/kSt6ZuHhHWyGK6unK">Perusall</a>
+  <li>“Chapter 4: What Gets Counted Counts” in Catherine D’Ignazio and Lauren Klein, <em>Data Feminism</em> (MIT Press, 2020) [Perusall]</li>
+  <li>Spreadsheet readings [Perusall]
     <ul>
       <li>Robert Kosara, <a href="https://eagereyes.org/basics/spreadsheet-thinking-vs-database-thinking">“Spreadsheet Thinking Versus Database Thinking”</a></li>
       <li>Sandhya Kambhampati, <a href="https://source.opennews.org/articles/building-cleaner-smarter-spreadsheets/">“Cleaner, Smarter Spreadsheets Start with Structure”</a></li>
@@ -217,20 +135,20 @@
 
 <h4 id="wed-oct-6-government-data-i-origins-of-the-us-census">Wed., Oct. 6: Government Data I: Origins of the U.S. Census</h4>
 <ul>
-  <li>“Chapter 4: The Census and Industrial America in the Gilded Age” in Margo Anderson, <em>The American Census: A Social History</em> (pp. 86-114) <a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/RpPCDg63tMoeeDMWP">Perusall</a></li>
+  <li>“Chapter 4: The Census and Industrial America in the Gilded Age” in Margo Anderson, <em>The American Census: A Social History</em> (pp. 86-114) [Perusall]</li>
 </ul>
 
 <p><em>Data Biography Due Friday, 10/8 11:59PM</em></p>
 
 <h4 id="mon-oct-11-data-analysis--pandas-i">Mon., Oct. 11: Data Analysis / Pandas I</h4>
 <ul>
-  <li>“Chapter 6: The Numbers Don’t Speak for Themselves” in <em>Data Feminism</em> <a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/rykw2Bfgw7NCxny3u">Perusall</a></li>
+  <li>“Chapter 6: The Numbers Don’t Speak for Themselves” in <em>Data Feminism</em> [Perusall]</li>
   <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/03-Data-Analysis/01-Pandas-Basics-Part1.html">Pandas Basics Part 1</a> (Walsh)</li>
 </ul>
 
 <h4 id="wed-oct-13-government-data-ii-census-stories">Wed., Oct. 13: Government Data II: Census Stories</h4>
 <ul>
-  <li>Historian Dan Bouk will be joining us in class for a Q&amp;A.  Annotate the following collection of posts that are part of his <em>Census Stories</em> project <a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/4C9wMqf4FZjBtRDxt">Perusall</a>:
+  <li>Historian Dan Bouk will be joining us in class for a Q&amp;A.  Annotate the following collection of posts that are part of his <em>Census Stories</em> project [Perusall]:
     <ul>
       <li><a href="https://censusstories.us/2020/07/27/disfranchisement.html">“Standing on the Crater of a Volcano”</a></li>
       <li><a href="https://censusstories.us/2020/09/20/rankin.html">“Political Solutions to Imperfect Data”</a></li>
@@ -270,7 +188,7 @@
 
 <h4 id="wed-oct-27-corporate-data-i">Wed. Oct. 27: Corporate Data I</h4>
 <ul>
-  <li>Josh Lauer, “Plastic surveillance: Payment cards and the history of transactional data, 1888 to present” <em>Big Data &amp; Society</em> (2020) <a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/rQpeH7n3ZAYc9kqZR">Perusall</a></li>
+  <li>Josh Lauer, “Plastic surveillance: Payment cards and the history of transactional data, 1888 to present” <em>Big Data &amp; Society</em> (2020) [Perusall]</li>
   <li>Margaret O’Mara, <em>The Code: Silicon Valley and the Remaking of America</em> (2019) (selections TBD) [Perusall]</li>
 </ul>
 
@@ -278,8 +196,8 @@
 
 <h4 id="mon-nov-1-data-visualization-ii">Mon., Nov. 1: Data Visualization II</h4>
 <ul>
-  <li>“Chapter 4: Data-Ink and Graphical Redesign” in Edward Tufte, <em>The Visual Display of Quantitative Information</em> <a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/wMpkvkbzLqjPfmNwZ">Perusall</a></li>
-  <li>“Chapter 3: On Rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints” in <em>Data Feminism</em> <a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/J6P5QBfQeBb97xv3h">Perusall</a></li>
+  <li>“Chapter 4: Data-Ink and Graphical Redesign” in Edward Tufte, <em>The Visual Display of Quantitative Information</em> [Perusall]</li>
+  <li>“Chapter 3: On Rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints” in <em>Data Feminism</em> [Perusall]</li>
 </ul>
 
 <h4 id="wed-nov-3-corporate-data-ii">Wed., Nov. 3: Corporate Data II</h4>
@@ -311,7 +229,7 @@
 
 <h4 id="wed-nov-10-corporate-data-iii--project-proposals">Wed., Nov. 10: Corporate Data III | Project Proposals</h4>
 <ul>
-  <li>Jerome de Groot, <a href="https://doi.org/10.1525/tph.2020.42.1.8">“Ancestry.com and the Evolving Nature of Historical Information Companies”</a> <em>The Public Historian</em> (2020) <a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/Z5Ha8tXPiie3dgHfR">Perusall</a></li>
+  <li>Jerome de Groot, <a href="https://doi.org/10.1525/tph.2020.42.1.8">“Ancestry.com and the Evolving Nature of Historical Information Companies”</a> <em>The Public Historian</em> (2020) [Perusall]</li>
   <li>Prepare a short presentation on your project proposal</li>
 </ul>
 
@@ -322,7 +240,7 @@
 
 <h4 id="mon-nov-15-the-data-economy-today">Mon., Nov. 15: The Data Economy Today</h4>
 <ul>
-  <li>“Chapter 5: Unicorns, Janitors, Ninjas, Wizards, and Rock Stars” in <em>Data Feminism</em> <a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/a4khc2e3pQn7YzdCd">Perusall</a></li>
+  <li>“Chapter 5: Unicorns, Janitors, Ninjas, Wizards, and Rock Stars” in <em>Data Feminism</em> [Perusall]</li>
   <li>“Chapter 6: The Future of Information Culture” in Safiya Noble, <em>Algorithms of Oppression</em></li>
 </ul>
 
@@ -333,7 +251,7 @@
 
 <h4 id="wed-nov-17-computer-vision">Wed., Nov. 17: Computer Vision</h4>
 <ul>
-  <li>Lauren Tilton and Taylor Arnold, “Distant Viewing: Analyzing Large Visual Corpora” <em>Digital Scholarship in the Humanities</em> (2019) <a href="https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/SHMTmye9gAZiAwTYA">Perusall</a></li>
+  <li>Lauren Tilton and Taylor Arnold, “Distant Viewing: Analyzing Large Visual Corpora” <em>Digital Scholarship in the Humanities</em> (2019) [Perusall]</li>
 </ul>
 
 <p><em>In Class</em></p>
@@ -373,50 +291,4 @@
 <p><em>Final Research Project Due Tuesday, December 14  by 11:59PM</em></p>
 
 <p><em>Final Self Assessment Due Tuesday, December 14  by 11:59PM</em></p>
-
-  </div>
-</article>
-
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer"><div class="copyright">
-            
-            <p><a href="https://cameronblevins.org">Cameron Blevins</a>, University of Colorado Denver (Fall 2021)<br />Jekyll theme <a href="https://github.com/forever-jekyll">Forever Jekyll</a></p>
-
-            
-          </div>
-        </footer>
-      </div>
-    </div>
-
-    <script src="https://cdn.plyr.io/3.6.4/plyr.polyfilled.js"></script>
-    <script>
-      const player = new Plyr('#player');
-    </script>
-    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
-    <script type="text/javascript">
-      const lightbox = GLightbox({
-          touchNavigation: true,
-          loop: true,
-          autoplayVideos: true
-      });
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-    <script>mermaid.initialize({startOnLoad:true});</script>
-
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/auto-render.min.js"
-            onload="renderMathInElement(document.body,{
-                    delimiters: [
-                    { left: '$$',  right: '$$',  display: true  },
-                    { left: '$',   right: '$',   display: false },
-                    { left: '\\[', right: '\\]', display: true  },
-                    { left: '\\(', right: '\\)', display: false }
-                    ]});">
-    </script>
-
-  </body>
-</html>
+:ET
