@@ -16,5 +16,6 @@ The **second** file is a "static" PDF file that basically takes a snapshot of yo
 - Save your notebook!
 - In Jupyter Lab go to Run -> Restart Kernel and Run All Cells. This basically wipes your notebook clean by reloading it and then sequentially running through all of your cells. Go through and check to make sure that you don't have any error messages from running any of your cells and that everything is displaying properly. 
 - Go to: File -> Export Notebook as... -> PDF and then save or move the resulting PDF file into the same folder and with the same filename convention as your .ipynb file (ie. `hw-01-yourlastname.pdf`)
+- **Note**: if you run into an error when trying to export your notebook as a PDF, use the following work-around: in JupyterLab go to File -> Print... then in the printer dialogue box try to find an option to Save/Print to PDF. Depending on your operating system and browser, this might be Destination -> Save as PDF, Select Printer -> Microsoft Print to PDF. IF you're having trouble finding this option, try googling "Print to PDF +  [type of browser you're using] + [Windows/Mac]".
 
 When you have both files ready to submit, go to the Canvas assignment page and upload the `.ipynb` first and then the `.pdf` file second.
