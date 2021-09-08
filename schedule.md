@@ -36,7 +36,7 @@ In-class:
 
 #### ~~Mon., Sep. 6: No Class (Labor Day)~~
 
-#### Wed., Sep. 8: Navigating Python
+#### Wed., Sep. 8: Navigating Python (Zoom class)
 - [Anatomy of a Python Script](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/03-Anatomy-Python-Script.html) (Walsh)
 - [Variables](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/04-Variables.html) (Walsh)
 - [Data Types](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/05-Data-Types.html) (Walsh)
@@ -82,8 +82,14 @@ _In Class_
 - [Functions](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/12-Functions.html) (Walsh)
 - [Common Python Errors](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/13-Common-Python-Errors.html) (Walsh)
 
+_In Class_
+- Teddy presentation
+
 #### Wed., Sep. 29: Bodies, Archives, and Data
 - Jessica Marie Johnson, ["Markup Bodies: Black [Life] Studies and Slavery [Death] Studies at the Digital Crossroads"](https://doi.org/10.1215/01642472-7145658) *Social Text*, Vol. 36, No. 4 (2018). [Perusall](https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/ixkyAYTvx6JH95KKg)
+
+_In Class_
+- Max presentation
 
 *Homework #4 Due Friday, 10/1 by 11:59PM*
 
@@ -98,11 +104,15 @@ _In Class_
   - Sandhya Kambhampati, [“Cleaner, Smarter Spreadsheets Start with Structure”](https://source.opennews.org/articles/building-cleaner-smarter-spreadsheets/)
 
 _In Class_
+- Keira presentation
 - Transcribing data 
 - Structuring data
 
 #### Wed., Oct. 6: Government Data I: Origins of the U.S. Census
 - “Chapter 4: The Census and Industrial America in the Gilded Age” in Margo Anderson, *The American Census: A Social History* (pp. 86-114) [Perusall](https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/RpPCDg63tMoeeDMWP)
+
+_In Class_
+- Jules presentation
 
 *Data Biography Due Friday, 10/8 11:59PM*
 
@@ -126,8 +136,14 @@ _In Class_
 - [Pandas Part 2](https://melaniewalsh.github.io/Intro-Cultural-Analytics/03-Data-Analysis/02-Pandas-Basics-Part2.html) (Walsh)
 - [Pandas Part 3](https://melaniewalsh.github.io/Intro-Cultural-Analytics/03-Data-Analysis/03-Pandas-Basics-Part3.html) (Walsh)
 
+_In Class_
+- Class visit from Melanie Walsh
+
 #### Wed., Oct. 20: Government Data III: Privacy & Surveillance
 - Sarah Elizabeth *Igo, The Known Citizen: A History of Privacy in Modern America*, p. 57-71, 83-98, 221-223, 232-247. [Perusall]
+
+_In Class_
+- TJ Presentation
 
 *Homework #6 Due Friday, 10/22  by 11:59PM*
 
