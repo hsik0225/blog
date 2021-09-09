@@ -1,5 +1,4 @@
-I"|
-<p>You will be completing a series of coding homework assignments in order to help you learn how to work with data, primarily using the Python programming language. Each exercise will have you apply the skills you learned in the preceding classes.</p>
+I"�<p>You will be completing a series of coding homework assignments in order to help you learn how to work with data, primarily using the Python programming language. Each exercise will have you apply the skills you learned in the preceding classes.</p>
 
 <h2 id="submission-instructions">Submission Instructions</h2>
 
@@ -13,6 +12,7 @@
   <li>Save your notebook!</li>
   <li>In Jupyter Lab go to Run -&gt; Restart Kernel and Run All Cells. This basically wipes your notebook clean by reloading it and then sequentially running through all of your cells. Go through and check to make sure that you don’t have any error messages from running any of your cells and that everything is displaying properly.</li>
   <li>Go to: File -&gt; Export Notebook as… -&gt; PDF and then save or move the resulting PDF file into the same folder and with the same filename convention as your .ipynb file (ie. <code class="language-plaintext highlighter-rouge">hw-01-yourlastname.pdf</code>)</li>
+  <li><strong>Note</strong>: if you run into an error when trying to export your notebook as a PDF, use the following work-around: in JupyterLab go to File -&gt; Print… then in the printer dialogue box try to find an option to Save/Print to PDF. Depending on your operating system and browser, this might be Destination -&gt; Save as PDF, Select Printer -&gt; Microsoft Print to PDF. IF you’re having trouble finding this option, try googling “Print to PDF +  [type of browser you’re using] + [Windows/Mac]”.</li>
 </ul>
 
 <p>When you have both files ready to submit, go to the Canvas assignment page and upload the <code class="language-plaintext highlighter-rouge">.ipynb</code> first and then the <code class="language-plaintext highlighter-rouge">.pdf</code> file second.</p>

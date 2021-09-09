@@ -41,7 +41,7 @@ In-class:
 - [Variables](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/04-Variables.html) (Walsh)
 - [Data Types](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/05-Data-Types.html) (Walsh)
 
-In-class:
+_In-class_
 - [Navigating Python]({{site.baseurl}}/in-class/navigating-python)
 
 *[Homework #1]({{site.baseurl}}/homework/hw-01.ipynb) Due Friday, 9/10 by 11:59PM*
@@ -52,6 +52,9 @@ In-class:
 - [String Methods](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/06-String-Methods.html) (Walsh)
 - [Files and Character Encoding](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/07-Files-Character-Encoding.html) (Walsh)
 - [Comparisons and Conditionals](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/08-Comparisons-Conditionals.html) (Walsh)
+
+_In-class_
+- [Working with Text in Python]({{site.baseurl}}/in-class/working-with-text)
  
 #### Wed., Sep. 15: Slavery and Capitalism
 - Excerpt from Eugene Genovese and Elizabeth Fox Genovese, *The Fruits of Merchant Capital: Slavery and Bourgeois Property in the Rise and Expansion of Capitalism* (1983) [[Perusall](https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/P7tj6fxirrjdqeWmr)]
