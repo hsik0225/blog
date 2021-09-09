@@ -7,7 +7,7 @@ Launch Jupyter Labs and create a new directory within your class folder `data-a-
 
 Today we'll be working with a single text: a narrative dictated by [Venture Smith](https://en.wikipedia.org/wiki/Venture_Smith), a successful businessman and formerly enslaved man in colonial-era New England. The narrative, *A Narrative of the Life and Adventures of Venture, a Native of Africa: But Resident above Sixty Years in the United States of America, Related by Himself*, is available in several formats online but for the purposes of today I've put it into the primary kind of file you will want to use when working with textual data in Python: a text file (ending in `.txt`). 
 
-* **Download Smith's narrative by clicking on [this link]({{site.baseurl}}/in-class/venture-smith.txt)** (if it opens in your browser without downloading you might need to use File -> Save As). Move the .txt file into your `working-with-text` folder. Take a look at the text file in Jupyter Lab by double-clicking on the file in the left pane.
+* Download Smith's narrative by clicking on [this link]({{site.baseurl}}/in-class/venture-smith.txt)(if it opens in your browser without downloading you might need to use File -> Save As OR right click the link and select "Save link as"). Move the .txt file into your `working-with-text` folder. Take a look at the text file in Jupyter Lab by double-clicking on the file in the left pane.
 * In Jupyter Lab, add a code cell and create a new variable called `smith` that assigns the contents of the `venture-smith.txt` file using the `open()` and `read()` functions ([Walsh instructions](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/07-Files-Character-Encoding.html)).
 * In a new code cell, add two lines of code. In the first, just run your new variable `smith` to display its contents. In the second line, use `print()` to display its contents. What is the difference between these two?
 * Use `index()` function to show the first character (letter) of Smith's narrative. It should show: `'A'`.
@@ -24,3 +24,4 @@ Today we'll be working with a single text: a narrative dictated by [Venture Smit
   - Print the 200th word in Smith's narrative
   - Print the length of the 200th word in Smith's narrative measured by number of characters/letters.
   - Print the length of Smith's narrative measured by number of words
+- Use `string.split()` to break Smith's narrative apart into separate chapters and then `len()` to calculate how long Chapter II is based on the number of characters in that chapter.
