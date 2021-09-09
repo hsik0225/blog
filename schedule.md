@@ -168,7 +168,8 @@ _In Class_
 - Readings on Xerox PARC and Internet of Things during the 1990s (TBD) [Perusall]
 
 _In Class_
-- Class visit from [John Tinnell](http://johntinnell.com/), Director of Digital Studies Certificate 
+- Class visit from [John Tinnell](http://johntinnell.com/), Director of Digital Studies Certificate
+- Teddy presentation 
 
 *Homework #7 Due Friday, 11/5 by 11:59PM*
 
