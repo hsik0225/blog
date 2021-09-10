@@ -67,8 +67,8 @@ _In-class_
 - [Lists and Loops Part 1](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/09-Lists-Loops-Part1.html) (Walsh)
 - [Lists and Loops Part 2](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/10-Lists-Loops-Part2.html) (Walsh)
 
-_In Class_
-- Caleb McDaniel, ["Data Mining the Internet Archive Collection"](https://programminghistorian.org/en/lessons/data-mining-the-internet-archive) *The Programming Historian*
+_In-class_
+- [Lists and Loops Practice]({{site.baseurl}}/in-class/lists-and-loops)
 
 #### Wed., Sep. 22: Numbers, Narratives, and Historical Evidence
 - John E. Murray's Introduction and Alan L. Olmstead's review of Edward Baptist, *The Half Has Never Been Told: Slavery and the Making of American Capitalism* in: *The Journal of Economic History*, Vol. 74, Issue 3, September 2015, pp. 919-923. [Perusall](https://app.perusall.com/courses/data-a-user-manual-fall-2021/_/dashboard/assignments/8oTrsutMgagqrxn8q)
@@ -78,7 +78,7 @@ _In Class_
 _In Class_
 - Class visit from Professor [Anelise Shrout](http://www.anelisehshrout.com/)
 
-*Homework #3 Due Friday, 9/24 by 11:59PM*
+*[Homework #3]({{site.baseurl}}/homework/hw-03.ipynb) Due Friday, 9/24 by 11:59PM*
 
 #### Mon., Sep. 27: Dictionaries and Functions
 - [Dictionaries](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/11-Dictionaries.html) (Walsh)
@@ -94,9 +94,9 @@ _In Class_
 _In Class_
 - Max presentation
 
-*Homework #4 Due Friday, 10/1 by 11:59PM*
+*[Homework #4]({{site.baseurl}}/homework/hw-04.ipynb) Due Friday, 10/1 by 11:59PM*
 
-*First Self Assessment Due Sunday, 10/3 by 11:59PM*
+*[First Self Assessment](https://ucdenver.instructure.com/courses/474404/assignments/1144859) Due Sunday, 10/3 by 11:59PM*
 
 ## Government Data
 

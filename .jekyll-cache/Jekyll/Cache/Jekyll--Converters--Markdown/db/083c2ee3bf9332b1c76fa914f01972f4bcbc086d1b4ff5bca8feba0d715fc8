@@ -1,4 +1,4 @@
-I"J<h2 id="i-the-basics">I. The Basics</h2>
+I"�I<h2 id="i-the-basics">I. The Basics</h2>
 
 <h4 id="mon-aug-23-introduction-to-the-course">Mon., Aug. 23: Introduction to the Course</h4>
 
@@ -84,9 +84,9 @@
   <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/10-Lists-Loops-Part2.html">Lists and Loops Part 2</a> (Walsh)</li>
 </ul>
 
-<p><em>In Class</em></p>
+<p><em>In-class</em></p>
 <ul>
-  <li>Caleb McDaniel, <a href="https://programminghistorian.org/en/lessons/data-mining-the-internet-archive">“Data Mining the Internet Archive Collection”</a> <em>The Programming Historian</em></li>
+  <li><a href="/f21-data/in-class/lists-and-loops">Lists and Loops Practice</a></li>
 </ul>
 
 <h4 id="wed-sep-22-numbers-narratives-and-historical-evidence">Wed., Sep. 22: Numbers, Narratives, and Historical Evidence</h4>
@@ -101,7 +101,7 @@
   <li>Class visit from Professor <a href="http://www.anelisehshrout.com/">Anelise Shrout</a></li>
 </ul>
 
-<p><em>Homework #3 Due Friday, 9/24 by 11:59PM</em></p>
+<p><em><a href="/f21-data/homework/hw-03.ipynb">Homework #3</a> Due Friday, 9/24 by 11:59PM</em></p>
 
 <h4 id="mon-sep-27-dictionaries-and-functions">Mon., Sep. 27: Dictionaries and Functions</h4>
 <ul>
@@ -125,7 +125,7 @@
   <li>Max presentation</li>
 </ul>
 
-<p><em>Homework #4 Due Friday, 10/1 by 11:59PM</em></p>
+<p><em><a href="/f21-data/homework/hw-04.ipynb">Homework #4</a> Due Friday, 10/1 by 11:59PM</em></p>
 
 <p><em>First Self Assessment Due Sunday, 10/3 by 11:59PM</em></p>
 

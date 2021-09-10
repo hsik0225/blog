@@ -1,0 +1,58 @@
+I"�!<h3 id="organizing-your-work">Organizing your work</h3>
+<p>Launch Jupyter Labs and create a new directory within your class folder <code class="language-plaintext highlighter-rouge">data-a-user-manual</code> called <code class="language-plaintext highlighter-rouge">lists-and-loops</code>. Navigate to that folder and create a new Jupyter Notebook, renaming the filename: <code class="language-plaintext highlighter-rouge">lists-and-loops.ipynb</code>.</p>
+
+<h3 id="get-the-data">Get the data</h3>
+<p>At this point you’ve worked with narratives authored by four enslaved people: Sojourner Truth, Frederick Douglass, Henry Brown, and Venture Smith. I’ve collected these into four text files in a folder called <code class="language-plaintext highlighter-rouge">narratives</code>. Click this link to download a zip file of this folder into <code class="language-plaintext highlighter-rouge">lists-and-loops</code> <a href="">narratives.zip</a>. In your operating system (outside of Jupyter Lab) unzip the file (<a href="https://www.hostinger.com/tutorials/how-to-unzip-files#:~:text=The%20Windows%20default%20support%20for%20.zip">Windows instructions</a> and <a href="https://www.hostinger.com/tutorials/how-to-unzip-files#:~:text=Archive%20Utility%20is%20Mac%E2%80%99s%20built-in%20tool%20that%20handles%20the%20.zip%20format.">Mac instructions</a>). You should now have a folder inside <code class="language-plaintext highlighter-rouge">data-a-user-manual</code> called <code class="language-plaintext highlighter-rouge">narratives</code>, inside of which are four <code class="language-plaintext highlighter-rouge">.txt</code> files.</p>
+
+<h3 id="working-with-files">Working with files</h3>
+
+<p>Working with files and folders is a common task in Python. There is a convenient library that will help you do this called <code class="language-plaintext highlighter-rouge">os</code> (operating system). This comes pre-installed with Anaconda, but you need to tell Python to load it into your notebook so you can begin using it.</p>
+
+<ul>
+  <li>To do this, type <code class="language-plaintext highlighter-rouge">import os</code> in your first code cell and run the cell to load the library.</li>
+  <li>To see if it worked, try adding a new code cell and typing <code class="language-plaintext highlighter-rouge">os.getcwd()</code>. This should show the filepath of your current folder.</li>
+</ul>
+
+<h3 id="opening-and-reading-a-file">Opening and reading a file</h3>
+
+<p>Your end goal is to open and access the text of the four text files inside <code class="language-plaintext highlighter-rouge">narratives</code>. For now, let’s establish how to do that with just one of the files - Sojourner Truth’s narrative.</p>
+
+<ul>
+  <li>How would you <code class="language-plaintext highlighter-rouge">open()</code> and <code class="language-plaintext highlighter-rouge">read()</code> her narrative in your notebook? If you need <a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/07-Files-Character-Encoding.html">a reminder on opening and reading files</a>.</li>
+  <li>Assign the text of Truth’s narrative to a new variable called <code class="language-plaintext highlighter-rouge">truth</code>.</li>
+  <li>Print the first 100 characters (letters) of her narrative to make sure it worked.</li>
+</ul>
+
+<h3 id="opening-multiple-files">Opening multiple files</h3>
+
+<p>Now that we’ve established how to open and access one file, the next step is to apply that process to all four files. We could, of course, copy and paste our code four times and adjust it each time to open a different file. But what if we had 400 files? Or 4,000 files? The power of coding comes from being able to scale up these kinds of basic processes, and one way to do this is using a <code class="language-plaintext highlighter-rouge">for loop</code>. In our case, we’re going to first generate a list of the names of our text files and then use a <code class="language-plaintext highlighter-rouge">for loop</code> to iterate through that list and open the files themselves sequentially.</p>
+
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">os</code> directory has a useful function called <code class="language-plaintext highlighter-rouge">os.listdir()</code> which tells you the names of all the files inside a folder. In this case, we want to point it at the <code class="language-plaintext highlighter-rouge">narratives</code> folder. To do so, you put the path of the folder inside the parentheses. In our case, we’re already inside the <code class="language-plaintext highlighter-rouge">lists-and-loops</code> folder, so we can point it to our subfolder by writing: <code class="language-plaintext highlighter-rouge">os.listdir('narratives/')</code>.</li>
+  <li>This should print out a <code class="language-plaintext highlighter-rouge">list</code> of filenames: <code class="language-plaintext highlighter-rouge">['truth.txt', 'douglass.txt', 'smith.txt', 'brown.txt']</code>. Just running the os.listdir() command, however, doesn’t store the output anywhere. Create a variable called <code class="language-plaintext highlighter-rouge">file_list</code> and assign it to <code class="language-plaintext highlighter-rouge">os.listdir('narratives/')</code>.</li>
+  <li>Display the 2nd item in your <code class="language-plaintext highlighter-rouge">file_list</code> to make sure it’s working.</li>
+  <li>Write a <code class="language-plaintext highlighter-rouge">for loop</code> to go through your <code class="language-plaintext highlighter-rouge">file_list</code>. To check and see if your loop is working, use a <code class="language-plaintext highlighter-rouge">print()</code> statement inside your loop that displays the name of the file.</li>
+  <li>Take the same structure of code you wrote above when you were <em>just</em> opening and loading Truth’s narrative, but figure out how you would apply it inside your for loop to each file.</li>
+</ul>
+
+<h3 id="storing-and-working-with-the-contents-of-our-files">Storing and working with the contents of our files</h3>
+
+<p>Once you’ve successfully figured out how to loop through your files to open() and read() each of them, the next step is to store their contents in a new list so we can work with the data with subsequent code. The goal is to loop through our files, open and read their contents, and then add their contents to a separate list. <a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/10-Lists-Loops-Part2.html#:~:text=we%20can%20also%20make%20lists%20with%20for%20loops.">If you need a refresher…</a></p>
+
+<ul>
+  <li>Copy and paste the same for loop you wrote above to open each file into a new code cell.</li>
+  <li><em>Before</em> the for loop starts, you want to create an empty list that you will then be adding the contents of our files into, with each narrative a separate item in our list. Add this line above your for loop: <code class="language-plaintext highlighter-rouge">text_list=[]</code></li>
+  <li>Inside the for loop, make a new variable called <code class="language-plaintext highlighter-rouge">contents</code> and assign it the full text from each narrative (using the code you copy and pasted).</li>
+  <li>Use <code class="language-plaintext highlighter-rouge">list.append()</code> to add the <code class="language-plaintext highlighter-rouge">contents</code> variable to our <code class="language-plaintext highlighter-rouge">text_list</code>.</li>
+  <li>Check to see if it worked by printing the first item in <code class="language-plaintext highlighter-rouge">text_list</code> - you should see a ton of text displayed on your screen!</li>
+  <li>What if we only wanted our <code class="language-plaintext highlighter-rouge">text_list</code> to contain Truth, Smith, and Douglass’s narratives? How would you use <code class="language-plaintext highlighter-rouge">list.remove()</code> to take Brown’s narrative out of our list?</li>
+  <li>Write a <code class="language-plaintext highlighter-rouge">for loop</code> that goes through <code class="language-plaintext highlighter-rouge">text_list</code> and prints the length of each narrative as measured by number of characters (letters) in the file.</li>
+</ul>
+
+<h3 id="bonus-practice">Bonus Practice</h3>
+
+<ul>
+  <li>Write a <code class="language-plaintext highlighter-rouge">for loop</code> that prints the length of each narrative as measured by <strong>number of words</strong> and then by the <strong>number of lines</strong>. Hint: use <code class="language-plaintext highlighter-rouge">string.split()</code>.</li>
+</ul>
+
+:ET

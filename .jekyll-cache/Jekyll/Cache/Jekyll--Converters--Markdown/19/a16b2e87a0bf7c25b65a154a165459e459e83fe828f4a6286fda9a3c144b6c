@@ -1,9 +1,9 @@
-I"�<p>Launch Jupyter Labs and create a new directory within your class folder <code class="language-plaintext highlighter-rouge">data-a-user-manual</code> called <code class="language-plaintext highlighter-rouge">working-with-text</code>. Navigate to that folder and create a new Jupyter Notebook, renaming the filename: <code class="language-plaintext highlighter-rouge">working-with-text.ipynb</code>.</p>
+I"X<p>Launch Jupyter Labs and create a new directory within your class folder <code class="language-plaintext highlighter-rouge">data-a-user-manual</code> called <code class="language-plaintext highlighter-rouge">working-with-text</code>. Navigate to that folder and create a new Jupyter Notebook, renaming the filename: <code class="language-plaintext highlighter-rouge">working-with-text.ipynb</code>.</p>
 
 <p>Today we’ll be working with a single text: a narrative dictated by <a href="https://en.wikipedia.org/wiki/Venture_Smith">Venture Smith</a>, a successful businessman and formerly enslaved man in colonial-era New England. The narrative, <em>A Narrative of the Life and Adventures of Venture, a Native of Africa: But Resident above Sixty Years in the United States of America, Related by Himself</em>, is available in several formats online but for the purposes of today I’ve put it into the primary kind of file you will want to use when working with textual data in Python: a text file (ending in <code class="language-plaintext highlighter-rouge">.txt</code>).</p>
 
 <ul>
-  <li><strong>Download Smith’s narrative by clicking on <a href="/f21-data/in-class/venture-smith.txt">this link</a></strong> (if it opens in your browser without downloading you might need to use File -&gt; Save As). Move the .txt file into your <code class="language-plaintext highlighter-rouge">working-with-text</code> folder. Take a look at the text file in Jupyter Lab by double-clicking on the file in the left pane.</li>
+  <li>Download Smith’s narrative by clicking on <a href="/f21-data/in-class/venture-smith.txt">this link</a>(if it opens in your browser without downloading you might need to use File -&gt; Save As OR right click the link and select “Save link as”). Move the .txt file into your <code class="language-plaintext highlighter-rouge">working-with-text</code> folder. Take a look at the text file in Jupyter Lab by double-clicking on the file in the left pane.</li>
   <li>In Jupyter Lab, add a code cell and create a new variable called <code class="language-plaintext highlighter-rouge">smith</code> that assigns the contents of the <code class="language-plaintext highlighter-rouge">venture-smith.txt</code> file using the <code class="language-plaintext highlighter-rouge">open()</code> and <code class="language-plaintext highlighter-rouge">read()</code> functions (<a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/07-Files-Character-Encoding.html">Walsh instructions</a>).</li>
   <li>In a new code cell, add two lines of code. In the first, just run your new variable <code class="language-plaintext highlighter-rouge">smith</code> to display its contents. In the second line, use <code class="language-plaintext highlighter-rouge">print()</code> to display its contents. What is the difference between these two?</li>
   <li>Use <code class="language-plaintext highlighter-rouge">index()</code> function to show the first character (letter) of Smith’s narrative. It should show: <code class="language-plaintext highlighter-rouge">'A'</code>.</li>
@@ -19,10 +19,11 @@
 <ul>
   <li>Use <code class="language-plaintext highlighter-rouge">string.split()</code>, <code class="language-plaintext highlighter-rouge">index()</code>, and <code class="language-plaintext highlighter-rouge">len()</code> to:
     <ul>
-      <li>Print the 200th word in Smith’s narrative</li>
-      <li>Print the length of the 200th word in Smith’s narrative measured by number of characters/letters.</li>
-      <li>Print the length of Smith’s narrative measured by number of words</li>
+      <li>Print <strong>the 200th word</strong> in Smith’s narrative</li>
+      <li>Print <strong>the length of the 200th word</strong> in Smith’s narrative measured by number of characters/letters.</li>
+      <li>Print the length of Smith’s narrative measured by <strong>number of words</strong></li>
     </ul>
   </li>
+  <li>Use <code class="language-plaintext highlighter-rouge">string.split()</code> to break Smith’s narrative apart into separate chapters and then <code class="language-plaintext highlighter-rouge">len()</code> to calculate how long Chapter II is based on the <strong>number of characters</strong> in that chapter.</li>
 </ul>
 :ET

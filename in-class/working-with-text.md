@@ -21,7 +21,7 @@ Today we'll be working with a single text: a narrative dictated by [Venture Smit
 *Bonus Practice*:
 
 - Use `string.split()`, `index()`, and `len()` to:
-  - Print the 200th word in Smith's narrative
-  - Print the length of the 200th word in Smith's narrative measured by number of characters/letters.
-  - Print the length of Smith's narrative measured by number of words
-- Use `string.split()` to break Smith's narrative apart into separate chapters and then `len()` to calculate how long Chapter II is based on the number of characters in that chapter.
+  - Print **the 200th word** in Smith's narrative
+  - Print **the length of the 200th word** in Smith's narrative measured by number of characters/letters.
+  - Print the length of Smith's narrative measured by **number of words**
+- Use `string.split()` to break Smith's narrative apart into separate chapters and then `len()` to calculate how long Chapter II is based on the **number of characters** in that chapter.

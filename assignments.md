@@ -27,8 +27,8 @@ You will be completing a series of coding homework assignments in order to help 
 
 - [Homework #1 (9/10)]({{site.baseurl}}/homework/hw-01.ipynb)
 - [Homework #2 (9/17)]({{site.baseurl}}/homework/hw-02.ipynb)
-- Homework #3 (9/24)
-- Homework #4 (10/1)
+- [Homework #3 (9/24)]({{site.baseurl}}/homework/hw-03.ipynb)
+- [Homework #4 (10/1)]({{site.baseurl}}/homework/hw-04.ipynb)
 - Homework #5 (10/15)
 - Homework #6 (10/22)
 - Homework #7 (11/5)
@@ -66,6 +66,6 @@ The major assignment for this course is a research project in which you find or 
 
 You will be writing three self assessments in this class spread over the course of the semester. The first two self assessments are short, 2-3 paragraphs submitted on Canvas that should convey to me the areas of the class in which you've been doing well (with concrete examples), the areas of the class in which you could be doing better, and what steps you plan to take to address your weaknesses or achieve your learning goals for the remainder of the semester. The final self assessment is a longer, 2-3 page reflection on the semester as a whole that expands on what you accomplished (with concrete examples), any areas in which you struggled or wish you had done better, how you want to apply what you've learned in this class to your studies or career moving forward, and the overall grade that you feel you deserve for the class. 
 
-- Self-Assessment #1 due by 10/3
+- [Self-Assessment #1 due by 10/3](https://ucdenver.instructure.com/courses/474404/assignments/1144859)
 - Self-Assessment #2 due by 11/7
 - Self-Assessment #3 due by 12/14
