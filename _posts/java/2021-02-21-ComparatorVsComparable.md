@@ -4,6 +4,8 @@ title: "[JAVA] Comparator와 Comparable"
 categories: [Java]
 ---
 
+객체들의 비교를 위한 인터페이스, `Comparator`와 `Comparable`
+
 ## Comparator와 Comparable
 
 Comparator와 Comparable은 모두 인터페이스로 컬렉션을 정렬하는데 필요한 메서드를 정의하고 있다.
