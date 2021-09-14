@@ -16,7 +16,7 @@ description: Backend Developer
 
 # Your website URL (e.g. https://forever-jekyll.github.io or https://forever-jekyll.com)
 # Used for Sitemap.xml and your RSS feed
-url: https://forever-jekyll.github.io
+url: https://hsik0225.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -26,11 +26,14 @@ baseurl: ""
 
 # Navigation menu
 navigation_links:
+  - title: About
+    url: /about
+
   - title: Blog
     url: /
 
-  - title: About
-    url: /about
+  - title: Categories
+    url: /categories
 
   - title: Search
     url: /search
