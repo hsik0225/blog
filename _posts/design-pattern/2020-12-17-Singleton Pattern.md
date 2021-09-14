@@ -4,6 +4,7 @@ title: "[디자인패턴] 싱글턴패턴(Singleton Pattern)"
 categories: [Design Pattern]
 ---
 
+불필요한 인스턴스 생성을 방지하는 패턴
 
 ## 1. 싱글턴(Singleton) 이란 ?
 

@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "[Logging] Spark Log Level 변경"
+title: "[Logging] Spark Logging Level 변경"
 categories: [Library]
 ---
+
+`Spark`에서 로깅 레벨을 변경하는 방법
 
 ```
 > Task :WebUIChessApplication.main()
