@@ -4,6 +4,8 @@ title: "[IntelliJ] 필수 단축키 정리(Mac, Windows)"
 categories: [IntelliJ]
 ---
 
+인텔리제이를 사용하면 꼭 알아야 하는 단축키 모음
+
 이 글에서 캐럿은 문자 커서를 의미합니다.
 
 문자 커서 참조

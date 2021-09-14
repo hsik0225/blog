@@ -4,6 +4,8 @@ title: "[IntelliJ] Grep Console - 로그를 보기 쉽게"
 categories: [IntelliJ]
 ---
 
+로그에 색상을 부여해서 로그를 더 쉽게 찾아보자!
+
 # Grep Console
 
 다음 사진처럼 로그가 많을 경우, 내가 원하는 로그만을 찾기 어렵다.
