@@ -4,6 +4,8 @@ title: "[Database] In-Memory Database"
 categories: [Database]
 ---
 
+In-Memory DB란 무엇일까?
+
 # IMDB
 IMDB는 디스크 또는 SSD에 데이터를 저장하는 데이터베이스와 달리, 메모리에 데이터를 저장하는 데이터베이스입니다.
 프로세스가 시작될 때 생성되고, 프로세스가 완료되면 파괴됩니다(Destroyed).

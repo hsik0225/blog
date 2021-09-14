@@ -3,6 +3,9 @@ layout: post
 title: "[Git] Squash And Merge 커밋, Rebase Conflict 이유"
 categories: [Git]
 ---
+
+스쿼시 머지한 커밋을 다른 커밋에 리베이스 할 경우 발생하는 이슈
+
 ### 문제 발생
 
 사진과 같이 기존 기능을 작성하고 있던 브랜치(`hsik0225`)와 PR로 Merge(Squash & Merge)된 Upstream의 커밋이 있습니다.

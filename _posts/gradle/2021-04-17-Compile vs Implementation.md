@@ -4,7 +4,7 @@ title: "[Gradle] compile vs implementation"
 categories: [Gradle]
 ---
 
-### 인터넷에 올라와 있는 글을 정리하며, 제 생각을 첨부한 내용이라 틀릴 수 있습니다!
+자주 사용하는 `compile`과 `implementation`이란 무엇이고, 이 둘의 차이점은 무엇일까?
 
 # Configuration
 compile과 implementation은 모듈에 다른 모듈(의존성)을 추가하여 런타임과 컴파일 시간에 사용한다는 것을 Gradle에 알려주는 것입니다.
