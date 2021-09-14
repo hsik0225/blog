@@ -4,6 +4,8 @@ title: "[Spring] 스프링 Resource Not Found 문제"
 categories: [Spring, Spring REST Docs]
 ---
 
+정적 파일이 존재하지 않거나, 경로가 틀려 발생하는 오류입니다.
+
 # 1. 결론
 jar 파일을 백그라운드로 실행시키고, 정적 파일에 접근했을 시 `NOT FOUND` 를 마주친다면, 
 1. 접근하려는 경로에 정적 파일이 있는지 확인해보세요.

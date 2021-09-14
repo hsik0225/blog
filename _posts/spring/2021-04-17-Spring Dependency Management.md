@@ -4,8 +4,11 @@ title: "[Spring] Spring Dependency Management"
 categories: [Spring]
 ---
 
+스프링 부트는 의존성들을 어떻게 관리할까?
+
 ### Spring Dependency Management
 말 그대로 의존성을 관리하는 것. 어떤 의존성을 가져올지, 해당 의존성의 어느 버전을 사용할지 등을 설정한다.
+
 ## 1. Getting Started
 
 build.gradle에 다음과 같이 플러그인을 작성한다.

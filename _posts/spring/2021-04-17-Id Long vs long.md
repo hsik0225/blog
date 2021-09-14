@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "[Spring] Id Long vs long"
-categories : [Spring]
+title: "[JPA] Id Long vs long"
+categories : [Spring, JPA]
 ---
+
+엔티티의 Id는 Wrapper? Primitive?
 
 ### Id의 타입,  Long vs long
 MySQL에서는 ID가 0이 될 수 있다. 음수도 가능하다.
