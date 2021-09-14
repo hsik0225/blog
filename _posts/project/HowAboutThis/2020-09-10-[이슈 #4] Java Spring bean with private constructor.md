@@ -4,6 +4,7 @@ title: "[이슈 #4] Java Spring bean with private constructor"
 categories: [HAT]
 ---
 
+`private` 생성자인 클래스도 빈 등록이 가능하다.
 
 예를 들어, 다음과 같은 기본 생성자를 가진 빈이 있습니다. 
 

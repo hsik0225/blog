@@ -5,9 +5,10 @@ categories: [HAT]
 ---
 
 
+
 ![사진](https://user-images.githubusercontent.com/56301069/92398415-7a0dc300-f163-11ea-9479-a4e77a8b80f8.png)
 
-오늘 코딩 중 위의 사진과 같이 MockHttpServletResponse.Body 의 한글이 깨지는 
+코딩 중 위의 사진과 같이 MockHttpServletResponse.Body 의 한글이 깨지는 
 현상이 발생했다.
 
 해결 방법은 `@Controller` 클래스의 `@RequestMapping`에 produces를 `application/json; charset=UTF-8`로 설정해주면 된다.

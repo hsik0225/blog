@@ -4,6 +4,8 @@ title: "[Proceed #2] Spring REST Docs"
 categories: [Katalk]
 ---
 
+`Spring REST Docs`를 사용하계 된 계기
+
 API 문서를 지금까지 Markdown 으로 표를 만들어 관리해왔었다.
 요청하는 Request URL이 적다면 금방 만들 수 있겠지만 Request URL이 많아질수록 작성해야하는 Parameter 들과 Response 들의 수가 기하급수적으로 늘어나 나중엔 문서 작성하는데만 하루가 꼬박 걸렸다.
 

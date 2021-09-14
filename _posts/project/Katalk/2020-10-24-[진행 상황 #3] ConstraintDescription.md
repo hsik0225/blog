@@ -4,6 +4,8 @@ title: "[Proceed #3] ConstraintDescription"
 categories: [Katalk]
 ---
 
+`Spring REST Docs`의 `Constraint` 메시지에 영어와 한글을 모두 출력
+
 Spring REST Docs에 Constraint를 추가하는 작업 도중 constraint의 메세지가 제대로 입력되지 않고 있습니다.
 
 ```java
