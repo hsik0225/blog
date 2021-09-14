@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[Logging] Spark Logging Level 변경"
-categories: [Library]
+title: "[Spark] Spark Logging Level 변경"
+categories: [Spark]
 ---
 
 `Spark`에서 로깅 레벨을 변경하는 방법

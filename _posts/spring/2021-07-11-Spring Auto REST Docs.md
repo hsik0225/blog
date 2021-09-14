@@ -4,7 +4,7 @@ title : "[Spring] Spring Auto REST Docs"
 categories : [Spring, Spring REST Docs]
 ---
 
-`Spring Auto REST Docs`는 `Spring REST Docs`를 이용하여 문서화를 할 때, 더 적은 코드를 작성하도록 도와주는 라이브러리입니다.
+`Spring Auto REST Docs`는 `Spring REST Docs`를 이용하여 문서화를 할 때, 더 적은 코드로 문서화를 할 수 있도록 도와주는 라이브러리입니다.
 
 ## 1. Spring Auto REST Docs Links
 - [Spring Auto REST Docs GitHub](https://github.com/ScaCap/spring-auto-restdocs)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[JPA] Id Long vs long"
-categories : [Spring, JPA]
+categories : [JPA, Spring]
 ---
 
 엔티티의 Id는 Wrapper? Primitive?
