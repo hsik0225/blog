@@ -3,13 +3,13 @@ layout: page
 permalink: /about
 ---
 
-# Contact
+## Contact
 
 Email : hsik0225@gmail.com
 
 GitHub : [https://github.com/hsik0225](https://github.com/hsik0225)
 
-# Introduction
+## Introduction
 
 안녕하세요, 백엔드 개발자 **김현식**입니다.
 
@@ -21,7 +21,7 @@ GitHub : [https://github.com/hsik0225](https://github.com/hsik0225)
 
 테스트 코드까지가 기능이라고 생각하며, 어떻게 하면 코드의 품질을 높일 수 있을지 항상 고민합니다.
 
-# Skill
+## Skill
 
 ### Back-End
 
@@ -40,7 +40,7 @@ GitHub : [https://github.com/hsik0225](https://github.com/hsik0225)
 
 ---
 
-# Project
+## Project
 
 ### 코드봐줘
 
