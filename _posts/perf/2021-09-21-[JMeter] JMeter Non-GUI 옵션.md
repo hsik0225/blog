@@ -4,6 +4,8 @@ title: "[JMeter] Non-GUI Commands"
 categories: [JMeter]
 ---
 
+JMeter를 Non-GUI 모드로 실행하는 방법
+
 - `-n`: Non GUI Mode로 JMeter 스크립트를 실행합니다.
 - `-t`: 주어진 경로에 존재하는 `.jmx` 파일을 실행합니다.
 - `-l`: 실행 결과(`.csv`)를 저장할 경로를 지정합니다.
