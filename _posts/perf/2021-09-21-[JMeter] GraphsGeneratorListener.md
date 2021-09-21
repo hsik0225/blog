@@ -72,5 +72,7 @@ jmeter.save.saveservice.autoflush=true
 
 테스트를 실행해보면 `csv` 파일 또는 `png` 파일이 생성된 것을 확인할 수 있습니다.
 
+> 테스트로 생성된 csv 파일에서 `Throughput`의 단위는 `second`입니다.
+
 # Reference
 - [Graphs Generator Listener Plugin Docs](https://jmeter-plugins.org/wiki/GraphsGeneratorListener/)
