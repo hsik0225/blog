@@ -58,6 +58,12 @@ java.lang.UnsupportedOperationException: Unknown command [14]:
 ...
 ```
 
+만약 `AWS EC2`의 보안 그룹 등으로 인해 기본 포트 `4444`가 아닌 다른 포트를 사용하고 경우, 뒤에 옵션을 추가합니다.
+
+```bash
+sh startAgent.sh --tcp-port 9000
+```
+
 ## PerfMon Metrics Collector 설정
 JMeter에서 `PerfMon Metrics Collector` Listener 를 추가합니다.
 
