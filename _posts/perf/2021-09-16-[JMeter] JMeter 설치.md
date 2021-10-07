@@ -80,9 +80,23 @@ $ brew install jmeter
 
 - **Loop Count**: Thread Group에 등록된 전체 Sampler를 몇 번 반복할지 설정합니다. 만약 Number of Threads가 10이고, Loop Count가 10이면, 열 사람 한명한명이 각각 10번씩 접속한다는 뜻입니다. Loop Count 옆에 있는 Infinite를 체크하면 계속 접속하겠다는 뜻입니다.
 
-`Thread Group`은 다음과 같이 각각 10, 30, 10으로 설정하겠습니다.
+JMeter는 탁구를 비유하면 이해하기 쉽습니다.
+부하를 일으키는 JMeter와 서버 간의 탁구 경기입니다.
 
-<img width="1057" alt="스크린샷 2021-09-12 오전 12 23 47" src="https://user-images.githubusercontent.com/56301069/133521150-23182194-0d03-47a9-96df-49f31990d800.png">
+각 용어들을 탁구로 다시 이야기하면, 
+- Number of Threads : 탁구 경기를 하는 사람들의 수
+- Ramp-up period : 모든 탁구 경기에 참가자들이 입장할 때까지 걸리는 시간
+- Loop Count : 랠리 횟수
+- Duration : 총 탁구 경기 진행 시간
+
+JMeter는 탁구 랠리와 마찬가지로 응답이 오기 전까지 요청을 보내지 않습니다.
+그래서 서버 처리가 오래 걸릴 경우 요청을 보낸 스레드는 다음 요청을 보내지 않아 TPS가 떨어지게 됩니다.
+
+일정 시간동안 VUser(Number of Threads)로 요청했을 때의 TPS 변화를 보고 싶다면, 랠리가 끊기지 않도록 Loop Count를 Infinite로 설정하고 Duration에 시간을 지정합니다.
+
+다음은 VUser를 100으로 1분간 요청을 보내는 예시입니다.
+
+![스크린샷 2021-10-07 오후 7 13 57](https://user-images.githubusercontent.com/56301069/136365345-927f1bb9-8f2a-4ea6-85a1-3ad663390acd.png)
 
 ### Sampler
 `Sampler`는 하나의 요청 단위입니다. 
@@ -117,7 +131,7 @@ $ brew install jmeter
 
 다음과 같이 왼쪽 패널에서는 테스트 요청이 실패했는지 성공했는지를 나타내고, 오른쪽 패널에서는 요청 및 응답에 대한 정보들을 표시해줍니다.
 
-오른쪽 패널에는 `Access Log`에 추가적인 정보가 조금 더 들어가 있는 거라고 생각하시면 됩니다.
+오른쪽 패널에는 `AccessLog`에 추가적인 정보가 조금 더 들어가 있는 거라고 생각하시면 됩니다.
 
 <img width="1052" alt="4" src="https://user-images.githubusercontent.com/56301069/133526408-50494a85-2b0a-4d36-897f-e7e1a6896fcb.png">
 
@@ -151,6 +165,17 @@ $ brew install jmeter
 
 - [[JMeter] JavaNativeFoundation](https://hsik0225.github.io/jmeter/2021/09/16/JMeter-JavaNativeFoundation/)
 - [[JMeter] Uncaught Exception java.lang.IllegalAccessError](https://hsik0225.github.io/jmeter/2021/09/16/JMeter-Uncaught-Exception-java.lang.IllgalAccessError/)
+
+## nGrinder와 JMeter TPS 비교
+`nGrinder`에서의 TPS와 `JMeter`에서의 TPS가 같이 나올지 궁금해서 확인해보았습니다.
+
+nGrinder의 설정과 JMeter 설정을 같게 설정하고 테스트 한 결과, JMeter의 TPS가 가끔 떨어지긴 하지만 비슷한 그래프가 나온 것을 확인할 수 있었습니다.
+
+### nGrinder
+<img width="1239" alt="스크린샷 2021-10-07 오후 7 26 32" src="https://user-images.githubusercontent.com/56301069/136367378-ccf3bf82-f303-4c22-97e3-b5f691c0981d.png">
+
+### JMeter
+![TPS](https://user-images.githubusercontent.com/56301069/136367159-6bc3de52-414f-494f-9880-5b620caf29bf.png)
 
 ## Reference
 - [맥에서 Brew로 자바 설치하기](https://llighter.github.io/install-java-on-mac/)

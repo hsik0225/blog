@@ -27,7 +27,7 @@ baseurl: ""
 # Navigation menu
 navigation_links:
   - title: About
-    url: /about
+    url: https://kimhyeonsik.notion.site/2beaa28aa8154597bbcfd0b2a42e6a77
 
   - title: Blog
     url: /
