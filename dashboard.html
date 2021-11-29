@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DropTheCode Dashboard</title>
+        <style>
+            body {
+                width: 35em;
+                margin: 0 auto;
+                font-family: Tahoma, Verdana, Arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>DropTheCode Performance Test Dashboard</h2>
+        <h3 style="line-height:200%;">튜닝 전 성능 테스트</h3>
+        <h4 style="line-height:10%;">설정</h4>
+        <em>&bull;&nbsp;&nbsp;</em>웹 서버 미연결 (모든 테스트 공통)<br/>
+        <em>&bull;&nbsp;&nbsp;</em>DB Replication 적용 (모든 테스트 공통)<br/>
+        <em>&bull;&nbsp;&nbsp;</em>DB Connection PoolSize: 10<br/>
+        <br/>
+        <h4 style="line-height:10%;">대시보드</h4>
+        <em>&bull;&nbsp;&nbsp;</em>
+        <a href="performance-test/was-cache+db-2K/integration/index.html">integration</a>
+        <br/>
+        <em>&bull;&nbsp;&nbsp;</em>
+        <a href="performance-test/was-cache+db-2K/vuser-10/index.html">vuser-10</a>
+        <br/>
+        <em>&bull;&nbsp;&nbsp;</em>
+        <a href="performance-test/was-cache+db-2K/vuser-30/index.html">vuser-30</a>
+        <br/>
+
+
+        <br/>
+        <hr style="height:3px;border:none;background-color:gray;">
+
+        <h3>DB 튜닝 후 성능 테스트</h3>
+        <h4 style="line-height:10%;">설정</h4>
+        <em>&bull;&nbsp;&nbsp;</em>쿼리 개선<br/>
+        <em>&bull;&nbsp;&nbsp;</em>MySQL 인덱스 적용<br/>
+        <em>&bull;&nbsp;&nbsp;</em>DB Connection PoolSize: 20<br/>
+        <br/>
+        <h4 style="line-height:10%;">대시보드</h4>
+        <em>&bull;&nbsp;&nbsp;</em>
+        <a href="performance-test/was-non-cache+db-tuning-poolsize-20-2K/integration/index.html">integration</a>
+        <br/>
+        <em>&bull;&nbsp;&nbsp;</em>
+        <a href="performance-test/was-non-cache+db-tuning-poolsize-20-2K/vuser-10/index.html">vuser-10</a>
+        <br/>
+        <em>&bull;&nbsp;&nbsp;</em>
+        <a href="performance-test/was-non-cache+db-tuning-poolsize-20-2K/vuser-30/index.html">vuser-30</a>
+        <br/>
+
+
+        <br/>
+        <hr style="height:3px;border:none;background-color:gray;">
+
+        <h3>어플리케이션 튜닝 후 성능 테스트</h3>
+        <h4 style="line-height:10%;">설정</h4>
+        <em>&bull;&nbsp;&nbsp;</em>JPA 2차 캐시 적용<br/>
+        <h4 style="line-height:10%;">결과</h4>
+        회원 데이터 2천개, VUser 30 기준<br/>
+        <em>&bull;&nbsp;&nbsp;</em>TPS는 캐싱 적용 전 대비 249에서 267으로 약 7% 증가<br/>
+        <em>&bull;&nbsp;&nbsp;</em>캐싱된 데이터를 사용하는 API의 응답 시간은 74초에서 43초로 약 42% 감소<br/>
+        <br/>
+        <h4 style="line-height:10%;">대시보드</h4>
+        <em>&bull;&nbsp;&nbsp;</em>
+        <a href="performance-test/was-cache+db-tuning-poolsize-20-2K/integration/index.html">integration</a>
+        <br/>
+        <em>&bull;&nbsp;&nbsp;</em>
+        <a href="performance-test/was-cache+db-tuning-poolsize-20-2K/vuser-10/index.html">vuser-10</a>
+        <br/>
+        <em>&bull;&nbsp;&nbsp;</em>
+        <a href="performance-test/was-cache+db-tuning-poolsize-20-2K/vuser-30/index.html">vuser-30</a>
+        <br/>
+
+        <br/>
+        <hr style="height:3px;border:none;background-color:gray;">
+
+        <p><em>Thank you for watching dropthecode.</em></p>
+    </body>
+</html>
