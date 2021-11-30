@@ -18,9 +18,10 @@ Enter file in which to save the key (/home/jsmith/.ssh/id_rsa): [Enter key]
 Enter passphrase (empty for no passphrase): [Press enter key]
 Enter same passphrase again: [Pess enter key]
 
-# 클라이언틍서 생성한 공개키를 서버에 등록
+# 클라이언트에서 생성한 공개키를 서버에 등록
 $ ssh-copy-id -i ~/.ssh/id_rsa.pub seed@192.168.1.68
 
+# -C: 통신 내용을 압축. 응답 속도가 빨라진다.
 # 이제 다시 ssh 접속을 하면 비밀번호 없이 접속된다.
 ssh -C seed@192.168.1.68
 ```
