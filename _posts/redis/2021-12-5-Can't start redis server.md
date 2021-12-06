@@ -11,13 +11,9 @@ categories: [Redis]
 젠킨스 빌드를 실행하면서 내장 레디스를 사용하는 테스트에서 위와 같은 에러가 발생하며 테스트가 빌드가 실패했습니다.
 
 ### 원인 분석
-
-[https://stackoverflow.com/questions/53287218/java-lang-runtimeexception-cant-start-redis-server-check-logs-for-details](https://stackoverflow.com/questions/53287218/java-lang-runtimeexception-cant-start-redis-server-check-logs-for-details) 글을 확인해보니 내장 레디스가 사용하고 있는 포트가 외부에서 사용 중이기 때문에 실패했다는 것을 알았습니다.
-
-코드를 확인해보니 내장 레디스를 사용하는 테스트마다 레디스 서버를 띄우고 있었고, 해당 레디스 서버는 포트를 점유했습니다. 만약 같은 포트를 점유하는 레디스 서버가 2개 생성된다면 `Can't start redis server` 예외가 발생했습니다.
+코드를 확인해보니 내장 레디스를 사용하는 테스트마다 레디스 서버를 띄우고 있었고, 해당 레디스 서버는 포트를 점유했습니다. 만약 다른 프로세스(내장 레디스 포함)가 사용 중인 포트로 레디스 서버를 생성하려고 하면 `Can't start redis server` 예외가 발생했습니다.
 
 ### 해결 방법
-
 - 테스트마다 다른 레디스 서버를 사용할 필요가 없으므로 레디스 서버가 1개만 생성되도록 했습니다.
 - 레디스 서버가 사용할 포트를 사용하고 있는 프로세스가 있는지 확인합니다. 만약 없다면 지정한 포트로 레디스 서버를 생성하고, 있다면 사용 가능한 다른 포트를 찾아 지정했습니다.
 
