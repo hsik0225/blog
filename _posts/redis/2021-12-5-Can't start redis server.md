@@ -18,57 +18,57 @@ categories: [Redis]
 - 레디스 서버가 사용할 포트를 사용하고 있는 프로세스가 있는지 확인합니다. 만약 없다면 지정한 포트로 레디스 서버를 생성하고, 있다면 사용 가능한 다른 포트를 찾아 지정했습니다.
 
 1. 사용하고 있는 컴퓨터에서 `net-tools` 패키지를 설치합니다.
+    ```bash
+    # 터미널에서 netstat 입력
+    # 다음과 같이 나온다면 설치되어 있는 것
+    $ netstat
+    Active Internet connections
+    Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)
+    ...
+    
+    # 다음과 같이 나온다면 설치되어 있지 않은 것
+    $ netstat
+    netstat: command not found
+    
+    # net-tools 패키지 설치
+    $ sudo apt-get install -y net-tools
+    ```
 
-```bash
-# 터미널에서 netstat 입력
-# 다음과 같이 나온다면 설치되어 있는 것
-$ netstat
-Active Internet connections
-Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)
-...
 
-# 다음과 같이 나온다면 설치되어 있지 않은 것
-$ netstat
-netstat: command not found
-
-# net-tools 패키지 설치
-$ sudo apt-get install -y net-tools
-```
-
-1. 레디스 서버를 생성하기 전에 `netstat` 명령어로 지정한 포트를 사용하고 있는 프로세스가 있는지 확인합니다.
-
-```java
-private boolean isRedisRunning() throws IOException {
-    return isRunning(executeGrepProcessCommand(redisPort));
-}
-
-private boolean isRunning(Process process) {
-    String line;
-    StringBuilder pidInfo = new StringBuilder();
-
-    try (BufferedReader input = new BufferedReader(new InputStreamReader(process.getInputStream()))) {
-
-        while ((line = input.readLine()) != null) {
-            pidInfo.append(line);
-        }
-
-    } catch (Exception e) {
-        log.error("EmbeddedRedis 실행 중 에러 발생", e);
+2. 레디스 서버를 생성하기 전에 `netstat` 명령어로 지정한 포트를 사용하고 있는 프로세스가 있는지 확인합니다.
+    ```java
+    private boolean isRedisRunning() throws IOException {
+      return isRunning(executeGrepProcessCommand(redisPort));
     }
-		
-		// 입력한 명령어에 대한 결과가 존재한다면 포트를 사용중인 것
-    return org.springframework.util.StringUtils.hasText(pidInfo.toString());
-}
+    
+    private boolean isRunning(Process process) {
+      String line;
+      StringBuilder pidInfo = new StringBuilder();
+    
+      try (BufferedReader input = new BufferedReader(new InputStreamReader(process.getInputStream()))) {
+    
+          while ((line = input.readLine()) != null) {
+              pidInfo.append(line);
+          }
+    
+      } catch (Exception e) {
+          log.error("EmbeddedRedis 실행 중 에러 발생", e);
+      }
+          
+          // 입력한 명령어에 대한 결과가 존재한다면 포트를 사용중인 것
+      return org.springframework.util.StringUtils.hasText(pidInfo.toString());
+    }
+    
+    // 지정한 포트를 사용하고 있는 프로세스가 있는지 확인
+    private Process executeGrepProcessCommand(int port) throws IOException {
+      String command = String.format("netstat -nat | grep LISTEN|grep %d", port);
+      String[] shell = {"/bin/sh", "-c", command};
+      return Runtime.getRuntime().exec(shell);
+    }
+    ```
 
-// 지정한 포트를 사용하고 있는 프로세스가 있는지 확인
-private Process executeGrepProcessCommand(int port) throws IOException {
-    String command = String.format("netstat -nat | grep LISTEN|grep %d", port);
-    String[] shell = {"/bin/sh", "-c", command};
-    return Runtime.getRuntime().exec(shell);
-}
-```
 
-1. 레디스 서버를 생성합니다.
+3. 레디스 서버를 생성합니다.
 - 만약 어떤 프로세스도 사용하고 있지 않다면, 지정한 포트로 레디스 서버를 생성합니다.
 - 만약 한 프로세스가 사용하고 있다면, 다른 포트로 변경 후 포트 사용 여부를 확인합니다.
 
@@ -87,6 +87,7 @@ private Process executeGrepProcessCommand(int port) throws IOException {
     ```
 
 
+<br>
 전체 코드로 보면 다음과 같습니다.
 
 ```java
