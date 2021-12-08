@@ -6,8 +6,12 @@ categories: [Redis]
 
 `it.ozimov/embedded-redis` 에서 발생하는 예외 해결 방법
 
-### 문제 상황
+### Environment
+- Spring Boot 2.6.1
+- it.ozimov/embedded-redis 0.7.2
+- Jenkins 2.319.1
 
+### 문제 상황
 젠킨스 빌드를 실행하면서 내장 레디스를 사용하는 테스트에서 위와 같은 에러가 발생하며 테스트가 빌드가 실패했습니다.
 
 ### 원인 분석
