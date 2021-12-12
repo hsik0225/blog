@@ -1,0 +1,63 @@
+---
+layout: post
+title: "[Heroku] MySQL 사용하기"
+categories: [Heroku]
+---
+
+Heroku에서 MySQL을 사용하여 데이터를 관리합니다.
+
+## Install
+
+ClearDB는 검색해보니 한글이 지원 안된다고 하여 JawsDB를 사용했습니다.
+
+> ClearDB 사용시 한글 깨짐 현상
+> 
+> [https://taetoungs-branch.tistory.com/m/160](https://simple-ing.tistory.com/51)
+
+<br>
+
+1. [https://dashboard.heroku.com/apps](https://dashboard.heroku.com/apps) 에 접속한 후 DB 용 앱을 생성합니다.
+![image](https://user-images.githubusercontent.com/56301069/145712802-e92f851b-d181-4df8-842d-a1c8490a6b1b.png)
+
+2. 앱의 이름을 설정하고 앱을 생성합니다.
+   ![image](https://user-images.githubusercontent.com/56301069/145712806-83f57040-ef2b-4c0a-87d4-6df2525acb86.png)
+
+
+3. `Resources` 탭에서 `Find more add-ons` 버튼을 클릭합니다.
+![image](https://user-images.githubusercontent.com/56301069/145712809-f3d1070b-d090-4423-943a-a9fb6959315a.png)
+
+
+4. `JawsDB MySQL`을 클릭합니다.
+![image](https://user-images.githubusercontent.com/56301069/145712812-20df4147-1d10-41ee-9dfe-3e1fb900eb2d.png)
+
+
+5. `Install JawsDB MySQL`을 클릭하여 설치합니다.
+   ![image](https://user-images.githubusercontent.com/56301069/145712815-0fce2f93-5e70-4012-b3b7-afadc429e7fe.png)
+
+
+6. 생성된 App을 클릭하고, `Resources` 탭에 있는 JawsDB MySQL을 클릭하시면 생성된 DB의 정보를 확인할 수 있습니다.
+   ![image](https://user-images.githubusercontent.com/56301069/145712821-dfb483bd-3760-445f-a4b6-f6b3e6bb768c.png)
+
+   ![image](https://user-images.githubusercontent.com/56301069/145712823-d7ea87c0-eae3-4fdc-b383-43d984e79510.png)
+
+
+## Access
+
+`heroku config`를 이용하여 설치한 MySQL의 URI를 확인합니다.
+
+```bash
+$ heroku config -a <app_name>
+=== <app_name> Config Vars
+JAWSDB_URL: mysql:<유저 정보>:<비밀번호>@<호스트 주소>:<포트 번호>/<데이터베이스 이름>
+```
+
+터미널에서 MySQL Client로 접속합니다.
+
+```bash
+mysql -u <유저 정보> -h <호스트 주소> -p <포트 번호>
+Enter password: <비밀번호>
+```
+
+## Spring Application과 연동하기
+
+[[Heroku] Spring Boot Application 배포](https://hsik0225.github.io/heroku/2021/12/12/Heroku에서-Spring-Boot-Application-배포/)를 참고하여 Spring Application의 Heroku 설정에 MySQL 설정을 추가합니다.
