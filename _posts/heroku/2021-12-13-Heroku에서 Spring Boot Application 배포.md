@@ -22,8 +22,8 @@ Heroku에서 Spring Boot Application을 빌드하고, 배포합니다.
 
 ## Add-ons
 
-- 프로젝트에서 MySQL을 사용한다면 [Heroku에서 MySQL 사용하기]() 를 참고해주세요.
-- 프로젝트에서 Redis을 사용한다면 [Heroku에서 Redis 사용하기]() 를 참고해주세요.
+- 프로젝트에서 MySQL을 사용한다면 [Heroku에서 MySQL 사용하기](https://hsik0225.github.io/heroku/2021/12/14/Heroku%EC%97%90%EC%84%9C-MySQL-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/) 를 참고해주세요.
+- 프로젝트에서 Redis을 사용한다면 [Heroku에서 Redis 사용하기](https://hsik0225.github.io/heroku/2021/12/15/Heroku%EC%97%90%EC%84%9C-Redis-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/) 를 참고해주세요.
 
 # Application 설정
 ## Config Vars
