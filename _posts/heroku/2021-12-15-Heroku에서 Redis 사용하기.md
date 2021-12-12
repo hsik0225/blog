@@ -9,6 +9,10 @@ Heroku에서 Redis를 사용하여 데이터를 관리합니다.
 ## Install
 
 Heroku 공식문서에 있는 `Heroku Redis`를 사용했습니다.
+Connection Limit이 20으로 준수하며, 다른 벤더에는 없는 분석 기능을 제공하기 때문입니다.
+
+![스크린샷 2021-12-12 오후 11 39 16](https://user-images.githubusercontent.com/56301069/145717053-bb6dff53-4ed2-4612-88aa-ea5769e5c10e.png)
+
 
 > Heroku Redis
 [https://devcenter.heroku.com/articles/heroku-redis](https://devcenter.heroku.com/articles/heroku-redis)
