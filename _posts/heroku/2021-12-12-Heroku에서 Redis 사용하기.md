@@ -1,0 +1,60 @@
+---
+layout: post
+title: "[Heroku] Redis 사용하기"
+categories: [Heroku]
+---
+
+Heroku에서 Redis를 사용하여 데이터를 관리합니다.
+
+## Install
+
+Heroku 공식문서에 있는 `Heroku Redis`를 사용했습니다.
+
+> Heroku Redis
+[https://devcenter.heroku.com/articles/heroku-redis](https://devcenter.heroku.com/articles/heroku-redis)
+
+<br>
+
+1. [https://dashboard.heroku.com/apps](https://dashboard.heroku.com/apps) 에 접속한 후 DB 용 앱을 생성합니다.
+   ![image](https://user-images.githubusercontent.com/56301069/145713430-1433bf1e-214c-44c7-9fb6-7b53486afd0c.png)
+
+
+2. 앱의 이름을 설정하고 앱을 생성합니다.
+   ![image](https://user-images.githubusercontent.com/56301069/145713432-cda5d51d-8a36-409d-95a6-f8fa67c17068.png)
+
+3. `Resources` 탭에서 `Find more add-ons` 버튼을 클릭합니다.
+   ![image](https://user-images.githubusercontent.com/56301069/145713434-d1a6985b-ef6c-4f6a-9e65-8379efbbcfe0.png)
+
+4. `Heroku Redis`를 클릭합니다.
+   ![image](https://user-images.githubusercontent.com/56301069/145713436-a2463e00-7a68-4b32-b9c1-3d56c5359900.png)
+
+5. `Install Heroku Redis`을 클릭하여 설치합니다.
+   ![image](https://user-images.githubusercontent.com/56301069/145713439-782c3e71-88de-4fc8-bbad-3a17a6330733.png)
+
+
+6. 생성된 Redis App의 `Resources` 탭에서 Redis가 성공적으로 설치되었음을 확인할 수 있습니다.
+   ![image](https://user-images.githubusercontent.com/56301069/145713440-fc7c2694-9a79-4507-8fa6-6a7e3b55ddc5.png)
+
+   해당 아이콘을 클릭하여 `Settins` - `View Credentials`를 클릭하시면 Redis 설정을 확인할 수 있습니다.
+![image](https://user-images.githubusercontent.com/56301069/145713445-4b34b80d-47eb-48a1-aac7-fea7f99b5e13.png)
+
+## Access
+
+Heroku의 Redis CLI를 이용하여 Redis에 접근할 수 있습니다.
+
+```bash
+$ heroku redis:cli -a <redis_app_name>
+Connecting to redis (REDIS_TLS_URL, REDIS_URL):
+[호스트주소]:[포트번호]> exit
+```
+
+## Spring Application과 연동하기
+
+`heroku config`  명령어를 사용하여 REDIS URL을 확인합니다.
+
+```bash
+$ heroku config -a <redis_app_name>
+REDIS_URL: redis://h:asdfqwer1234asdf@ec2-111-1-1-1.compute-1.amazonaws.com:111
+```
+
+[[Heroku] Spring Boot Application 배포](https://hsik0225.github.io/heroku/2021/12/12/Heroku에서-Spring-Boot-Application-배포/)를 참고하여 Spring Application의 Heroku 설정에 Redis 설정을 추가합니다.
