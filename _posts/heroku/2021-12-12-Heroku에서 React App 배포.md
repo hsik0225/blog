@@ -1,0 +1,184 @@
+---
+layout: post
+title: "Heroku에서 React App 배포"
+categories: [Heroku]
+---
+
+Heroku에서 프론트엔드 파일들을 빌드하고, 배포합니다.
+
+> 제가 프론트엔드를 해보지 않아서 프론트 설정을 잘 모릅니다.
+> 
+> 잘못적용하거나 필요하지 않은 옵션을 적용했다면 댓글로 알려주세요!
+
+# Create new app
+
+1. [https://dashboard.heroku.com/apps](https://dashboard.heroku.com/apps) 에 접속한 후 `Create new app` 을 클릭하여 앱을 생성합니다.
+   ![image](https://user-images.githubusercontent.com/56301069/145707053-b59973c1-8302-42fe-a7d4-91bf72c92541.png)
+
+
+2. 앱의 이름을 설정하고 앱을 생성합니다.
+
+   ![image](https://user-images.githubusercontent.com/56301069/145707071-ce730dca-5987-48ed-8102-4e8ce9f26d87.png)
+
+3. `Settings` 탭에서 `Add buildpack` 버튼을 클릭합니다.
+   ![image](https://user-images.githubusercontent.com/56301069/145707074-c5f21ef4-8946-4cb3-b976-ece630b440ac.png)
+
+4. Enter Buildpack URL에 [https://github.com/mars/create-react-app-buildpack](https://github.com/mars/create-react-app-buildpack) 를 입력하고 저장합니다.
+
+   ![image](https://user-images.githubusercontent.com/56301069/145707106-bd5b8dbc-9ffa-485b-aadd-d2311bbcb89d.png)
+
+# Heroku Git Repository  추가
+
+`Settings` 탭에서 App Information을 보시면 `Heroku git URL`이 적혀 있습니다.
+![image](https://user-images.githubusercontent.com/56301069/145707112-8ba9a635-7d5d-4b52-9af1-4c97472147c3.png)
+
+해당 저장소를 프로젝트에 추가합니다. 프로젝트에서
+
+```bash
+$ git remote add <원격 저장소 이름> <Heroku git URL>
+```
+
+를 입력합니다.
+
+### Backend 폴더와 Frontend 폴더 각각을 저장소에 추가
+
+저희 프로젝트는 다음과 같이 backend 폴더와 frontend 폴더가 하나의 저장소에 들어있습니다.
+
+```bash
+❯ ls
+README.md backend/ frontend/
+```
+
+backend에서는 `java jar`로, front는 `npm`으로 배포를 진행합니다. backend와 frontend에서 실행해야 할 스크립트가 다르기 때문에, 둘을 같은 헤로쿠 저장소에 추가하면 안됩니다.
+
+그러므로 `front`와 `backend`는 다음과 같이 다른 원격 저장소 이름으로 각각 저장소를 추가합니다.
+
+```bash
+$ git remote add heroku-front <Heroku front git URL>
+$ git remote add heroku-back <Heroku backend git URL>
+```
+
+# package.json
+
+package.json에 다음을 추가합니다.
+
+- 사용하는 node와 npm 버전
+- scripts
+    - `start`: node <main.js의 경로>/main.js
+    - `build`: build 스크립트
+    - `heroku-prebuild`: npm install. 빌드를 실행하기 전 실행할 스크립트
+
+예를 들어, 현재 저희 프로젝트의 `package.json`은 다음과 같습니다.
+
+```bash
+{
+  "name": "drop-the-code",
+  "version": "1.0.0",
+  "description": "frontend part of drop the code web application",
+  "main": "src/index.tsx",
+  "engines":{
+    "node":"16.x",
+    "npm":"8.x"
+  },
+  "scripts": {
+    "start": "node dist/server/main.js",
+    "build": "npm run build-client && npm run build-server",
+		"build-client": "webpack --node-env production --config webpack.prod.ts",
+    "build-server": "webpack --node-env production --config webpack.server.ts",
+    "heroku-prebuild": "npm install"
+		...
+  },
+	...
+}
+```
+
+# Procfile
+
+루트 디렉토리로 이동합니다.
+
+루트 디렉토리는 배포하고자 하는 폴더의 최상위 폴더입니다.
+
+예를 들어 다음과 같은 프로젝트 구조에서 프론트엔드의 루트 디렉토리는 `frontend/`입니다.
+
+```bash
+❯ ls
+README.md backend/ frontend/
+```
+
+루트 디렉토리에서 `Procfile`을 생성합니다.
+
+그 후 안에 `web: npm start` 를 작성합니다.
+
+```bash
+# 루트 디렉토리에서
+❯ echo "web: npm start" >> Procfile
+```
+
+# Deploy
+
+프론트의 변경 사항을 커밋합니다.
+
+```bash
+❯ git add .
+❯ git commit -m '프론트엔드 헤로쿠 배포 설정 추가'
+```
+
+### 프로젝트 저장소에 프론트와 백엔드 폴더가 같이 있을 경우
+
+다음과 같이 프로젝트 저장소에 프론트와 백엔드 폴더가 같이 있다면,
+
+```bash
+❯ ls
+README.md backend/ frontend/
+```
+
+`git susbtree split`을 이용하여 프론트폴더만을 따로 분리하고 헤로쿠 저장소에 푸시해야 합니다.
+
+```bash
+# git push -f <원격 저장소 이름> `git subtree split --prefix <배포할 폴더 이름>`:master
+# -f: 강제 푸시. 로컬의 커밋 이력을 강제로 원격에 저장
+
+# git subtree spli --prefix <배포할 폴더 이름>: <배포할 폴더 이름>의 커밋 이력을 기준으로 새로운 커밋 생성
+
+# git push -f <원격 저장소 이름> <커밋>:<브랜치>
+# <원격 저장소>에 있는 <브랜치>에 <커밋>을 추가
+
+❯ git push -f heroku-front `git subtree split --prefix frontend`:master
+```
+
+### 프로젝트에 프론트 폴더만 있을 경우
+
+다음과 같이 프로젝트 저장소에 `.git` 폴더와 프론트파일이 같이 있다면,
+
+```bash
+❯ ls -a
+.git .gitignore node_modules public src
+```
+
+헤로쿠 설정을 추가한 커밋을 바로 헤로쿠 저장소에 푸시합니다.
+
+```bash
+❯ git push heroku-front master
+```
+
+# Check
+
+배포가 끝나고 나면 다음과 같이 배포된 웹 사이트의 주소가 나옵니다.
+
+해당 링크를 클릭하여 성공적으로 배포가 되었는지 확인해봅니다.
+
+```bash
+remote: 
+remote: -----> Compressing...
+remote:        Done: 55.3M
+remote: -----> Launching...
+remote:        Released v52
+remote:        https://dropthecode.herokuapp.com/ deployed to Heroku
+remote: 
+remote: Verifying deploy... done.
+To https://git.heroku.com/dropthecode.git
+```
+
+웹 페이지가 정상적으로 출력되었습니다 👍
+
+![image](https://user-images.githubusercontent.com/56301069/145707196-0c6cfda5-4f96-4fc8-99f5-9fea37b16bd6.png)
