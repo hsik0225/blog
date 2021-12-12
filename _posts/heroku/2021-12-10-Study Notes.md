@@ -41,7 +41,7 @@ categories: [Heroku]
 - [[Heroku] Spring Boot Application 배포](https://hsik0225.github.io/heroku/2021/12/13/Spring-Boot-Application-%EB%B0%B0%ED%8F%AC/)
 - [[Heroku] MySQL 사용하기](https://hsik0225.github.io/heroku/2021/12/14/MySQL-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/)
 - [[Heroku] Redis 사용하기](https://hsik0225.github.io/heroku/2021/12/15/Redis-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/)
-
+- [[Heroku] Jenkins 사용하기](https://hsik0225.github.io/heroku/2021/12/16/Jenkins-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/)
 # Glossary
 - [Dyno]()
 - [Procfile]()
