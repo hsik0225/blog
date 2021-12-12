@@ -37,10 +37,10 @@ categories: [Heroku]
 
 # How To Use?
 - [[Heroku] Getting Started](https://hsik0225.github.io/heroku/2021/12/11/Heroku-Getting-Started/)
-- [[Heroku] React App 배포](https://hsik0225.github.io/heroku/2021/12/12/Heroku%EC%97%90%EC%84%9C-React-App-%EB%B0%B0%ED%8F%AC/)
-- [[Heroku] Spring Boot Application 배포](https://hsik0225.github.io/heroku/2021/12/13/Heroku%EC%97%90%EC%84%9C-Spring-Boot-Application-%EB%B0%B0%ED%8F%AC/)
-- [[Heroku] MySQL 사용하기](https://hsik0225.github.io/heroku/2021/12/14/Heroku%EC%97%90%EC%84%9C-MySQL-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/)
-- [[Heroku] Redis 사용하기](https://hsik0225.github.io/heroku/2021/12/15/Heroku%EC%97%90%EC%84%9C-Redis-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/)
+- [[Heroku] React App 배포](https://hsik0225.github.io/heroku/2021/12/12/React-App-%EB%B0%B0%ED%8F%AC/)
+- [[Heroku] Spring Boot Application 배포](https://hsik0225.github.io/heroku/2021/12/13/Spring-Boot-Application-%EB%B0%B0%ED%8F%AC/)
+- [[Heroku] MySQL 사용하기](https://hsik0225.github.io/heroku/2021/12/14/MySQL-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/)
+- [[Heroku] Redis 사용하기](https://hsik0225.github.io/heroku/2021/12/15/Redis-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/)
 
 # Glossary
 - [Dyno]()
