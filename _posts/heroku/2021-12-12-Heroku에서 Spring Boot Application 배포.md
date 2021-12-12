@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Heroku에서 Spring Boot Application 배포"
+title: "[Heroku] Spring Boot Application 배포"
 categories: [Heroku]
 ---
 
@@ -25,8 +25,7 @@ Heroku에서 Spring Boot Application을 빌드하고, 배포합니다.
 - 프로젝트에서 MySQL을 사용한다면 [Heroku에서 MySQL 사용하기]() 를 참고해주세요.
 - 프로젝트에서 Redis을 사용한다면 [Heroku에서 Redis 사용하기]() 를 참고해주세요.
 
-# Spring Boot 설정
-
+# Application 설정
 ## Config Vars
 
 `application.properties`의 DATABASE_URL, PASSWORD와 같이 외부에서 지정해주는 옵션들을 설정합니다.

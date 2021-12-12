@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Heroku에서 React App 배포"
+title: "[Heroku] React App 배포"
 categories: [Heroku]
 ---
 
@@ -27,38 +27,8 @@ Heroku에서 프론트엔드 파일들을 빌드하고, 배포합니다.
 
    ![image](https://user-images.githubusercontent.com/56301069/145707106-bd5b8dbc-9ffa-485b-aadd-d2311bbcb89d.png)
 
-# Heroku Git Repository  추가
-
-`Settings` 탭에서 App Information을 보시면 `Heroku git URL`이 적혀 있습니다.
-![image](https://user-images.githubusercontent.com/56301069/145707112-8ba9a635-7d5d-4b52-9af1-4c97472147c3.png)
-
-해당 저장소를 프로젝트에 추가합니다. 프로젝트에서
-
-```bash
-$ git remote add <원격 저장소 이름> <Heroku git URL>
-```
-
-를 입력합니다.
-
-### Backend 폴더와 Frontend 폴더 각각을 저장소에 추가
-
-저희 프로젝트는 다음과 같이 backend 폴더와 frontend 폴더가 하나의 저장소에 들어있습니다.
-
-```bash
-❯ ls
-README.md backend/ frontend/
-```
-
-backend에서는 `java jar`로, front는 `npm`으로 배포를 진행합니다. backend와 frontend에서 실행해야 할 스크립트가 다르기 때문에, 둘을 같은 헤로쿠 저장소에 추가하면 안됩니다.
-
-그러므로 `front`와 `backend`는 다음과 같이 다른 원격 저장소 이름으로 각각 저장소를 추가합니다.
-
-```bash
-$ git remote add heroku-front <Heroku front git URL>
-$ git remote add heroku-back <Heroku backend git URL>
-```
-
-# package.json
+# Application 설정
+## package.json
 
 package.json에 다음을 추가합니다.
 
@@ -92,7 +62,7 @@ package.json에 다음을 추가합니다.
 }
 ```
 
-# Procfile
+## Procfile
 
 루트 디렉토리로 이동합니다.
 
@@ -115,7 +85,38 @@ README.md backend/ frontend/
 ```
 
 # Deploy
+## Heroku Git Repository  추가
 
+`Settings` 탭에서 App Information을 보시면 `Heroku git URL`이 적혀 있습니다.
+![image](https://user-images.githubusercontent.com/56301069/145707112-8ba9a635-7d5d-4b52-9af1-4c97472147c3.png)
+
+해당 저장소를 프로젝트에 추가합니다. 프로젝트에서
+
+```bash
+$ git remote add <원격 저장소 이름> <Heroku git URL>
+```
+
+를 입력합니다.
+
+### Backend 폴더와 Frontend 폴더 각각을 저장소에 추가
+
+저희 프로젝트는 다음과 같이 backend 폴더와 frontend 폴더가 하나의 저장소에 들어있습니다.
+
+```bash
+❯ ls
+README.md backend/ frontend/
+```
+
+backend에서는 `java jar`로, front는 `npm`으로 배포를 진행합니다. backend와 frontend에서 실행해야 할 스크립트가 다르기 때문에, 둘을 같은 헤로쿠 저장소에 추가하면 안됩니다.
+
+그러므로 `front`와 `backend`는 다음과 같이 다른 원격 저장소 이름으로 각각 저장소를 추가합니다.
+
+```bash
+$ git remote add heroku-front <Heroku front git URL>
+$ git remote add heroku-back <Heroku backend git URL>
+```
+
+## 헤로쿠 저장소에 커밋 푸시
 프론트의 변경 사항을 커밋합니다.
 
 ```bash
