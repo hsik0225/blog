@@ -84,7 +84,7 @@ README.md backend/ frontend/
 
 ```bash
 # 루트 디렉토리에서 java -jar 명령어와 함께 필요한 옵션들을 작성합니다.
-❯ echo "web: java -Dlog4j2.formatMsgNoLookups=true -Dserver.port=\$PORT -Dspring.profiles.active=heroku -Duser.timezone=Asia/Seoul \$JAVA_OPTS -jar build/libs/*.jar" >> Procfile2
+❯ echo "web: java -Dlog4j2.formatMsgNoLookups=true -Dserver.port=\$PORT -Dspring.profiles.active=heroku -Duser.timezone=Asia/Seoul \$JAVA_OPTS -jar build/libs/*.jar" >> Procfile
 ```
 
 ## Heroku java version
