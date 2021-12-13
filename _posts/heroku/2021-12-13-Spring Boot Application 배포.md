@@ -158,7 +158,7 @@ README.md backend/ frontend/
 # git push -f <원격 저장소 이름> `git subtree split --prefix <배포할 폴더 이름>`:master
 # -f: 강제 푸시. 로컬의 커밋 이력을 강제로 원격에 저장
 
-# git subtree spli --prefix <배포할 폴더 이름>: <배포할 폴더 이름>의 커밋 이력을 기준으로 새로운 커밋 생성
+# git subtree split --prefix <배포할 폴더 이름>: <배포할 폴더 이름>만을 가진 새로운 커밋 생성
 
 # git push -f <원격 저장소 이름> <커밋>:<브랜치>
 # <원격 저장소>에 있는 <브랜치>에 <커밋>을 추가
