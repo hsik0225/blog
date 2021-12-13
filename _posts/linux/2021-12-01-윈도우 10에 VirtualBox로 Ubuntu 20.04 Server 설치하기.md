@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "윈도우 10에 VirtualBox로 Ubuntu 20.04 Server 설치하기"
+title: "[Linux] 윈도우 10에 VirtualBox로 Ubuntu 20.04 Server 설치하기"
 categories: [Linux]
 ---
 

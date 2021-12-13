@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ssh password 입력 없이 접속"
+title: "[Linux] ssh password 입력 없이 접속"
 categories: [Linux]
 ---
 
