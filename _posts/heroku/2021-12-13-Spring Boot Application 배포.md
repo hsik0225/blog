@@ -152,7 +152,7 @@ $ git remote add heroku-back <Heroku backend git URL>
 README.md backend/ frontend/
 ```
 
-`git susbtree split`을 이용하여 백엔드 폴더만을 따로 분리하고 헤로쿠 저장소에 푸시해야 합니다.
+`git subtree split`을 이용하여 백엔드 폴더만을 따로 분리하고 헤로쿠 저장소에 푸시해야 합니다.
 
 ```bash
 # git push -f <원격 저장소 이름> `git subtree split --prefix <배포할 폴더 이름>`:master
