@@ -4,8 +4,9 @@ title : "[Spring Auto REST Docs] Section snippet 'auto-method-path' is configure
 categories : [Spring, Spring REST Docs]
 ---
 
-### 문제
+Spring Auto REST Docs를 사용하면서 만난 WARN 로그가 무엇인지 이해하고, 제거합니다.
 
+### 문제
 Spring Auto REST Docs를 사용하다가 다음과 같은 WARN 문구를 만났습니다.
 
 ```groovy
