@@ -6,6 +6,11 @@ categories: [Heroku]
 
 Heroku에서 Spring Boot Application을 빌드하고, 배포합니다.
 
+# Environment
+- heroku/7.59.2
+- darwin-x64
+- node-v12.21.0
+
 # Create new app
 
 1. [https://dashboard.heroku.com/apps](https://dashboard.heroku.com/apps) 에 접속한 후 `Create new app` 을 클릭하여 앱을 생성합니다.
