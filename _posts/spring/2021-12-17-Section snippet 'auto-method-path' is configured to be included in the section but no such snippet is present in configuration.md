@@ -11,13 +11,13 @@ Spring Auto REST Docs를 사용하면서 만난 WARN 로그가 무엇인지 이�
 ### 문제
 Spring Auto REST Docs를 사용하다가 다음과 같은 WARN 문구를 만났습니다.
 
-> [WARN]: Section snippet 'auto-method-path' is configured to be included in the section but no such snippet is present in configuration
+> [WARN]: Section snippet 'auto-description' is configured to be included in the section but no such snippet is present in configuration
 
 이 문구가 테스트 코드에서 계속 보이는 것이 신경쓰였기 때문에 이 WARN을 해결할 방법을 찾아보았습니다.
 
 ### 해결 방법
 
-Spring Auto Rest Docs의 Section에 `auto-method-path`와 `auto-description-path`가 있으면 나타나는 문구입니다. 만약 SectionBuilder에서 두 개의 스니펫을 제거하세요.
+Spring Auto Rest Docs의 Section에 `auto-method-path`와 `auto-description`가 있으면 나타나는 문구입니다. SectionBuilder에서 두 개의 스니펫을 제거하세요.
 
 ```groovy
 AutoDocumentation.sectionBuilder()
@@ -28,11 +28,11 @@ AutoDocumentation.sectionBuilder()
                  .build();
 ```
 
-### 해결 과정
-> [WARN]: Section snippet 'auto-method-path' is configured to be included in the section but no such snippet is present in configuration
+### WARN 로그가 찍히는 이유
+> [WARN]: Section snippet 'auto-description' is configured to be included in the section but no such snippet is present in configuration
 
 
-위 문구는 섹션 스니펫이 `auto-method-path`를 사용하도록 설정했지만 그런 설정을 가진 스니펫이 없다는 것인데요.
+위 문구는 섹션 스니펫이 `auto-method-path`, `auto-description`를 사용하도록 설정했지만 그런 설정을 가진 스니펫이 없다는 것인데요.
 
 저의 섹션 빌더는 다음과 같았습니다.
 
