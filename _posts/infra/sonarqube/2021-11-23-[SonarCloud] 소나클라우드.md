@@ -94,7 +94,7 @@ SonarCloud는 GitHub Public Repository에 한해서 무료로 이용할 수 있�
    2. `Add SonarQube`를 클릭하고, 소나큐브 프로젝트 설정을 사진과 같이 입력합니다.
       - `Name` : SonarCloud
       - `Server URL` : [https://sonarcloud.io](https://sonarcloud.io/)
-      - `Server authentication token` : <위에서 생성한 토큰 선택>
+      - `Server authentication token` : 위에서 생성한 토큰 선택
       
           ![img_2](https://user-images.githubusercontent.com/56301069/147365353-c0be8cba-fda4-4ea5-b145-a2b9a2300977.png)
       
@@ -107,8 +107,8 @@ GitHub에 Push 혹은 PR 요청이 오면 소나큐브가 코드 분석을 실�
    ![img_3](https://user-images.githubusercontent.com/56301069/147365354-e60ae464-f902-47b7-82a3-337c56043d4f.png)
 
 3. 웹훅을 생성합니다.
-   - PayLoad URL : http://<Jenkins IP 주소:포트 번호>/multibranch-webhook-trigger/invoke?token=<토큰 이름, 마음가는대로 명명>
-   - Which events would you like to trigger this webhook?
+   - `PayLoad URL` : http://<Jenkins IP 주소:포트 번호>/multibranch-webhook-trigger/invoke?token=<토큰 이름, 마음가는대로 명명>
+   - `Which events would you like to trigger this webhook?`
       - `Let me select individual events.` 클릭
         ![img_4](https://user-images.githubusercontent.com/56301069/147365355-15b89cbe-8186-4e1b-8cfd-17ebad54c200.png)
       
