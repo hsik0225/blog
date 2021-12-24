@@ -245,8 +245,9 @@ pipeline {
    4. `Discover branches`, `Discover pull requests from forks` 를 삭제합니다.
 
       ![img_12](https://user-images.githubusercontent.com/56301069/147365363-594b6cbd-946c-4b7d-97b0-3977cd307006.png)
+   5. Discover pull requests from origin의 Strategy를 `The current pull request version`으로 변경합니다.
 
-   5. 위에서 생성한 Jenkinsfile의 경로를 입력합니다. Jenkins 파일 경로는 `.git` 디렉토리가 존재하는 디렉토리를 기준으로 입력합니다.
+   6. 위에서 생성한 Jenkinsfile의 경로를 입력합니다. Jenkins 파일 경로는 `.git` 디렉토리가 존재하는 디렉토리를 기준으로 입력합니다.
 
        만약 Jenkins 파일이 `.git` 디렉토리가 있는 디렉토리의 backend 디렉토리에 있을 경우 backend/Jenkinsfile 을 입력합니다.
        ```java
@@ -257,7 +258,7 @@ pipeline {
        Jenkinsfile gradlew src
        ```
 
-   6. `Scan Multibranch Pipeline Triggers`에서 `Scan by webhook`을 체크하고, 토큰 이름을 입력합니다.
+   7. `Scan Multibranch Pipeline Triggers`에서 `Scan by webhook`을 체크하고, 토큰 이름을 입력합니다.
    
         토큰 이름은 깃허브 웹훅에서 설정한 token=`<토큰 이름>` 입니다.
       
