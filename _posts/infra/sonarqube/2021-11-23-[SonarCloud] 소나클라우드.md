@@ -127,8 +127,9 @@ GitHub에 Push 혹은 PR 요청이 오면 소나큐브가 코드 분석을 실�
 2. `Generate new token` 을 클릭합니다.
    1. `Note` : 생성할 토큰의 이름. 다른 토큰과 구분가능한 이름으로 짓습니다.
    2. `Expiration` : 토큰의 유효 기간, 저는 길게 90일로 설정했습니다.
-   3. `Select scopes` : repo, admin:repo_hook 을 선택합니다.
-      ![img_6](https://user-images.githubusercontent.com/56301069/147365357-2850fbb0-2648-4859-828b-92b1c43f639d.png)
+   3. `Select scopes` : `repo`를 선택합니다.
+      ![스크린샷 2021-12-25 오전 9 04 33](https://user-images.githubusercontent.com/56301069/147374541-b8697aea-8b97-45c5-985e-928d234682a2.png)
+
    4. `Generate token` 을 클릭하여 토큰을 생성하고, 생성된 토큰을 저장해둡니다.
 
 ### 5. Webhook 플러그인 설치
@@ -200,9 +201,7 @@ pipeline {
 - `sonar.pullrequest.base`는 PR이 어느 브랜치에 머지될 것인가를 지정하는 옵션입니다. 만약 feature 브랜치가 dev 브랜치에 머지된다면, dev를 적습니다.
 - 다른 옵션들은 예시대로 작성합니다.
 
-> Jenkinsfile은 PR 요청 브랜치에 작성해도 괜찮지만, SonarQube 설정은 PR이 머지되는 브랜치에 존재해야 합니다.
-> 
-> Jenkinsfile을 PR이 머지되는 브랜치에서 실행하기 때문에, 머지되는 브랜치에서 SonarQube 설정이 되어있지 않다면 에러가 발생합니다.
+> Jenkinsfile과 소나큐브 설정(build.grale에서 설정)은 반드시 PR 요청 브랜치 혹은 PR이 머지되는 브랜치에 존재하고 있어야 하며, 존재하는 브랜치를 기준(위 스크립트에서 SCM 스테이지의 브랜치)으로 파이프라인 스크립트를 작성해야 합니다.
 
 ### 7. Multibranch Pipeline 생성 및 설정
 
@@ -241,13 +240,8 @@ pipeline {
       >
 
       ![img_11](https://user-images.githubusercontent.com/56301069/147365362-bba590f2-f6d9-4316-b726-07abb1b20b90.png)
-
-   4. `Discover branches`, `Discover pull requests from forks` 를 삭제합니다.
-
-      ![img_12](https://user-images.githubusercontent.com/56301069/147365363-594b6cbd-946c-4b7d-97b0-3977cd307006.png)
-   5. Discover pull requests from origin의 Strategy를 `The current pull request version`으로 변경합니다.
-
-   6. 위에서 생성한 Jenkinsfile의 경로를 입력합니다. Jenkins 파일 경로는 `.git` 디렉토리가 존재하는 디렉토리를 기준으로 입력합니다.
+   
+   4. 위에서 생성한 Jenkinsfile의 경로를 입력합니다. Jenkins 파일 경로는 `.git` 디렉토리가 존재하는 디렉토리를 기준으로 입력합니다.
 
        만약 Jenkins 파일이 `.git` 디렉토리가 있는 디렉토리의 backend 디렉토리에 있을 경우 backend/Jenkinsfile 을 입력합니다.
        ```java
@@ -258,7 +252,7 @@ pipeline {
        Jenkinsfile gradlew src
        ```
 
-   7. `Scan Multibranch Pipeline Triggers`에서 `Scan by webhook`을 체크하고, 토큰 이름을 입력합니다.
+   5. `Scan Multibranch Pipeline Triggers`에서 `Scan by webhook`을 체크하고, 토큰 이름을 입력합니다.
    
         토큰 이름은 깃허브 웹훅에서 설정한 token=`<토큰 이름>` 입니다.
       
@@ -268,16 +262,10 @@ pipeline {
 
 
 ## 8. 젠킨스 빌드 트리거
-
-1. PR을 작성합니다.
-2. `Mutlbranch Pipeline`에서 레포지토리 스캔 명령을 내립니다.
-   ![img_15](https://user-images.githubusercontent.com/56301069/147365366-e6b49802-1d1c-4645-b0b7-61178521c203.png)
-
-   다음과 같이 작성한 PR에 대한 젠킨스의 빌드가 실행됩니다.
+저장소에서 PR을 요청하면,  다음과 같이 작성한 PR에 대한 젠킨스의 빌드가 실행됩니다.
    ![img_16](https://user-images.githubusercontent.com/56301069/147365367-e92e254f-3fe3-4332-8f09-aafbc35d2c3d.png)
 
 # Reference
-
 - [https://sonarcloud.io/documentation/](https://sonarcloud.io/documentation/)
 - [https://hyeon9mak.github.io/sonarcloud-trouble-shooting/](https://hyeon9mak.github.io/sonarcloud-trouble-shooting/)
 - [https://stackoverflow.com/questions/54591822/how-to-integrate-sonarcloud-with-github-and-jenkins](https://stackoverflow.com/questions/54591822/how-to-integrate-sonarcloud-with-github-and-jenkins)
