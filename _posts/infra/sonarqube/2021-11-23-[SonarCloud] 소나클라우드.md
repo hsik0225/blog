@@ -59,7 +59,7 @@ SonarCloud는 GitHub Public Repository에 한해서 무료로 이용할 수 있�
 프로젝트의 레포지토리에서 PR을 요청하면 이렇게 코멘트가 달리는 것을 확인할 수 있습니다.
 ![image](https://user-images.githubusercontent.com/56301069/146437722-6ff376b5-d1c7-477a-a64f-69a3fe77a0af.png)
 
-## 3. 젠킨스의 소나큐브로 분석한 결과를 PR에 데코레이션
+## 3. 젠킨스와 소나큐브를 연동하여 분석한 결과를 PR에 데코레이션
 2번에서 설정한`자동 분석`으로는 위의 사진과 같이 새로 작성한 코드의`커버리지`가`No Coverage information`으로 출력되고, 수치로 보여주지 않습니다.
 
 공식문서에서 다음과 같이 설명하고 있습니다.
