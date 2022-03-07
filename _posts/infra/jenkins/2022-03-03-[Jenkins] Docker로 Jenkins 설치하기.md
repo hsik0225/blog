@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Jenkins] GitHub Webhooks로 빌드 자동화"
+title: "[Jenkins] Docker로 Jenkins 설치하기"
 categories: [Jenkins, Docker]
 ---
 
