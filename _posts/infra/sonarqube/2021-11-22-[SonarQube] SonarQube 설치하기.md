@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[SonarQube] 소나 큐브 설치 및 Jenkins와 연동하기"
+title: "[SonarQube] 소나큐브 설치하기"
 categories: [SonarQube, Jenkins, Tool]
 ---
 
@@ -120,7 +120,7 @@ sonarqube {
 
 코드 커버리지 측정을 위해 `jacoco` 속성을 추가했습니다.
 
-## 4. Jenkins와 연동
+## 4. CI/CD 도구와 연동하기
 
 지금도 다음과 같이 `sonarqube` 태스크를 실행하면 소나큐브 서버에 분석 결과가 게시됩니다.
 
@@ -131,59 +131,11 @@ $ ./gradlew sonarqube \
   -Dsonar.login=<token>
 ```
 
-하지만 로컬에서 코드를 푸시할 때마다 손으로 `sonarqube`를 실행시켜주면 귀찮으며, 까먹고 안하게 될 때도 있으므로 젠킨스에게 그 일을 맡겨봅시다.
+하지만 로컬에서 코드를 푸시할 때마다 손으로 `sonarqube`를 실행시켜주면 귀찮으며, 까먹고 안하게 될 때도 있으므로 CI/CD 도구에게 그 일을 맡겨봅시다.
 
-1. 젠킨스를 설치합니다.
-2. `Jenkins 관리` > `플러그인 관리`에서 `SonarQube Scanner for Jenkins`를 찾아 설치합니다. 이 플러그인을 사용하면 소나 큐브 서버 연결 구성을 젠킨스 글로벌 설정에 모아서 관리할 수 있습니다.
-3. `Jenkins 관리` > `Manage Credentials`에서 (global)을 클릭합니다.
-   ![image](https://user-images.githubusercontent.com/56301069/146435548-c96ca2e3-c26a-41db-9718-b5b66ff0fe6f.png)
+다음 링크들에서 CI/CD 도구에 맞는 연동 방법을 확인할 수 있습니다.
 
-   1. 왼쪽 메뉴에서 `Add Credentials`를 클릭합니다.
-   2. Kind를 Scretet Text로 한 후, 토큰과 다른 곳에서 식별될 ID를 입력합니다.
-      ![image](https://user-images.githubusercontent.com/56301069/146435561-6423bbbc-428e-48b6-8386-5d87fcdfcdb0.png)
-4. `Jenkins 관리` > `시스템 설정`에서 `SonarQube servers` 섹션을 찾습니다.
-    1. `Environmet variables`를 체크합니다.
-    2.  `Add SonarQube`를 클릭하고, 소나큐브 프로젝트 설정을 입력합니다.
-        ![image](https://user-images.githubusercontent.com/56301069/146435690-d10b0228-9ac6-47b4-9e2b-ee5b49f972b1.png)
-
-5. 젠킨스에서 소나큐브를 적용하고자 하는 Item의 `구성` 페이지로 이동합니다.
-    1. Item이 파이프라인일 경우 다음과 같이 스크립트를 작성할 수 있습니다.
-
-        ```
-        pipeline {
-            agent any
-            stages{
-                stage('SCM') {
-                    steps {
-                        git branch: "dev",
-                        url: "https://github.com/foo/bar.git"
-                    }
-                }
-        
-                        stage('Test') {
-                    steps {
-                        dir('backend') {
-                            sh './gradlew test'
-                        }
-                    }
-                }
-                
-                stage('SonarQube analysis') {
-                    steps {
-                        withSonarQubeEnv('<위에서 지정한 소나큐브 서버 이름>') { 
-                            dir('backend') {
-                                sh './gradlew sonarqube'
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        ```
-
-6. 소나큐브 서버로 가서 정상적으로 코드가 분석되었는지 확인합니다.
-   ![image](https://user-images.githubusercontent.com/56301069/146435998-738ed68f-947a-4a12-a706-c039c44004f1.png)
-
+- [[Jenkins] Jenkins와 SonarQube 연동하기]()
 
 # Reference
 
