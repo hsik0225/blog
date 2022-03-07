@@ -6,7 +6,7 @@ categories: [Jenkins, SonarQube]
 
 SonarQube와 Jenkins로 코드를 자동으로 정적 분석하여 코드의 품질을 확인합니다.
 
-> 이 글은 [[SonarQube] SonarQube 설치하기](https://hsik0225.github.io/sonarqube/sonarcloud/tool/2021/11/23/SonarCloud-%EC%86%8C%EB%82%98%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C/) 글과 이어지므로, 이전 글을 먼저 읽는 것을 추천합니다.
+> 이 글은 [[SonarQube] SonarQube 설치하기](https://hsik0225.github.io/sonarqube/jenkins/tool/2021/11/22/SonarQube-SonarQube-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/) 글과 이어지므로, 이전 글을 먼저 읽는 것을 추천합니다.
 
 ## 1. Jenkins 설치
 Jenkins를 설치하지 않았다면, 다음 [[Jenkins] Jenkins 설치하기]() 글을 참고하여 Jenkins를 설치해주세요. 
