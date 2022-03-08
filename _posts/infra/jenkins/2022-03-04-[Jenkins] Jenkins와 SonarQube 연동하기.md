@@ -9,7 +9,7 @@ SonarQube와 Jenkins로 코드를 자동으로 정적 분석하여 코드의 품
 > 이 글은 [[SonarQube] SonarQube 설치하기](https://hsik0225.github.io/sonarqube/jenkins/tool/2021/11/22/SonarQube-SonarQube-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/) 글과 이어지므로, 이전 글을 먼저 읽는 것을 추천합니다.
 
 ## 1. Jenkins 설치
-Jenkins를 설치하지 않았다면, 다음 [[Jenkins] Jenkins 설치하기]() 글을 참고하여 Jenkins를 설치해주세요. 
+Jenkins를 설치하지 않았다면, 다음 [[Jenkins] Docker로 Jenkins 설치하기](https://hsik0225.github.io/jenkins/docker/2022/03/03/Jenkins-Docker%EB%A1%9C-Jenkins-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/) 글을 참고하여 Jenkins를 설치해주세요. 
 
 ## 2. Jenkins에서 소나큐브 플러그인 설치 및 설정
 1. `Jenkins 관리` > `플러그인 관리`에서 `SonarQube Scanner for Jenkins`를 찾아 설치합니다. 이 플러그인을 사용하면 소나 큐브 서버 연결 구성을 젠킨스 글로벌 설정에 모아서 관리할 수 있습니다.
